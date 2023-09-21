@@ -22,7 +22,9 @@
 
 ## Website Information
 Business goals: 
-* 
+* Provide a fun and educational quiz for users
+* Provide easily readable instructions
+* Provide an easy to navigate website
 
 ### Website Sections:
 1. Home/Landing Page
@@ -38,10 +40,13 @@ Whilst designing and creating this website I have taken into account the five pl
 ### Strategy
 I began by creating the foundation for my website, I defined my target user and the types of features and technologies. 
 
-Target users for Forest Fest:
-* Ages 
+Target users for Parrots Parrots Parrots!:
+* Ages 10 +
+* Parrot lovers
+* People who want to learn more about parrots
 
 First time and returning user goals: 
+* To learn about different species of parrots
 * 
 
 Another goal for my website was to create an intuitive experience making the page easy to navigate without the user having to think too much about their next move. With the understanding that my user demographic is most likely viewing the website across a variety of devices, I have made sure that the site is fully responsive across screen sizes in order to optimize user experience.
@@ -71,6 +76,8 @@ removes colour, Typography, imagery to create a basic view of website and layout
 ![Wireframes]()
 
 ### Surface
+
+
 #### Typography
 ![google fonts]()
 

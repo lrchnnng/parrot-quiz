@@ -1,0 +1,26 @@
+* {
+    font-family: Montserrat, sans-serif;
+}
+
+.colour1 {
+    color: #ff0000;
+}
+.colour2 {
+    color: #dada07;
+}
+.colour3 {
+    color: #0000ff;
+}
+
+.title {
+    color:#0000ff;
+    text-align: center;
+}
+
+.title:hover {
+    color: #ff0000;
+}
+
+img {
+    margin: 0 auto;
+}
