@@ -46,8 +46,9 @@ Target users for Parrots Parrots Parrots!:
 * People who want to learn more about parrots
 
 First time and returning user goals: 
-* To learn about different species of parrots
-* 
+* To learn about different species of parrots.
+* To test current knowledge of various parrot species.
+* To acesses high scores from previous test attempts.
 
 Another goal for my website was to create an intuitive experience making the page easy to navigate without the user having to think too much about their next move. With the understanding that my user demographic is most likely viewing the website across a variety of devices, I have made sure that the site is fully responsive across screen sizes in order to optimize user experience.
 
