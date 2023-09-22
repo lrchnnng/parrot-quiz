@@ -1,4 +1,4 @@
-# Forest Festival
+# Parrots Parrots Parrots!
 [Link to website](https://lrchnnng.github.io/parrot-quiz/)
 
 ## Table of contents
