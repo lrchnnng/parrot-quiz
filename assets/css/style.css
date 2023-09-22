@@ -1,26 +1,87 @@
+:root {
+    --red: #DC3545;
+    --gold: #FFC107;
+    --blue: #0D6EFD;
+}
+
 * {
     font-family: Montserrat, sans-serif;
 }
 
-.colour1 {
-    color: #ff0000;
-}
-.colour2 {
-    color: #dada07;
-}
-.colour3 {
-    color: #0000ff;
+main {
+    padding: 20px;
 }
 
-.title {
-    color:#0000ff;
-    text-align: center;
+.colour1 {
+    color: var(--red);
+}
+.colour2 {
+    color: var(--gold);
+}
+.colour3 {
+    color: var(--blue);
+}
+
+.header {
+    .title {
+        color:#0000ff;
+        text-align: center;
+    }
+    .title-img {
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+
+/* Mobile Styling*/
+@media screen and (min-width: 260px) {
+    /* Nav bar */
+    .navbar-brand {
+        font-size: 16px !important;
+    }
+
+    /* Title */
+    .header {
+        padding-bottom: 20px;
+        .title-img {
+            margin: 10px;
+            width: 100%;
+        }
+    }
+    h1 {
+        font-size: 40px;
+    }
+    /* Buttons */
+    .buttons > a {
+        padding: 10px;
+        margin: 10px 0;
+        font-weight: bold;
+    }
+}
+
+/* Tablet Styling*/
+@media screen and (min-width: 768px) {
+    /* Nav bar */
+    .navbar-brand {
+        font-size: 18px !important;
+    }
+}
+
+/* Desktop Styling*/
+@media screen and (min-width: 1024px){
+    /* Nav bar */
+    .navbar-brand {
+        font-size: 24px !important;
+        padding-right:;
+    }
+    ul {
+        display: inline-block;
+        position: absolute;
+        right: 20px;
+    }
 }
 
 .title:hover {
     color: #ff0000;
 }
 
-img {
-    margin: 0 auto;
-}
