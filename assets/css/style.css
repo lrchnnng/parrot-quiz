@@ -33,6 +33,10 @@ main {
     }
 }
 
+hr {
+    border: dashed 2px var(--blue) !important;
+}
+
 /* Mobile Styling*/
 @media screen and (min-width: 260px) {
     /* Nav bar */
@@ -62,6 +66,20 @@ main {
         font-weight: bold;
     }
 }
+    /* Footer */
+    footer {
+        text-align: center;
+        font-size: 12px;
+        padding: 10px 0 20px 0;
+        .footer-link {
+            text-decoration: none;
+            color: var(--red) !important;
+        }
+        .footer-link:hover {
+            color: var(--blue) !important;
+            text-decoration: underline
+        }
+    }
 
 /* Tablet Styling*/
 @media screen and (min-width: 768px) {
