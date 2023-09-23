@@ -37,6 +37,11 @@ hr {
     border: dashed 2px var(--blue) !important;
 }
 
+ol {
+    color: var(--blue);
+    padding: 0 40px;
+}
+
 /* Mobile Styling*/
 @media screen and (min-width: 260px) {
     /* Nav bar */
@@ -51,7 +56,6 @@ hr {
         flex-direction: column;
         justify-content: center;
         .title-img {
-            
             width: 100%;
         }
     }
