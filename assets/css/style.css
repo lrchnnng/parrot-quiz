@@ -70,7 +70,7 @@ hr {
     footer {
         text-align: center;
         font-size: 12px;
-        padding: 10px 0 20px 0;
+        padding: 10px 0;
         .footer-link {
             text-decoration: none;
             color: var(--red) !important;
@@ -87,6 +87,10 @@ hr {
     .navbar-brand {
         font-size: 18px !important;
     }
+    /* Whole page */
+    .header, .buttons {
+        padding: 0 40px;
+    }
 }
 
 /* Desktop Styling*/
@@ -94,12 +98,16 @@ hr {
     /* Nav bar */
     .navbar-brand {
         font-size: 24px !important;
-        padding-right:;
     }
     ul {
         display: inline-block;
         position: absolute;
         right: 20px;
+    }
+    
+    /* Whole page */
+    .header, .buttons {
+        padding: 0 60px !important;
     }
 }
 
