@@ -63,13 +63,30 @@ ol {
     h1 {
         font-size: 40px;
     }
+
+    .title-q {
+        color: var(--red);
+        text-align: center;
+    }
+
     /* Buttons */
     .buttons > a {
         padding: 10px;
         margin: 10px 0;
         font-weight: bold;
     }
-}
+
+    #next-btn {
+        margin: 20px 40px 0 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #quiz-img {
+        width: 100px
+    }
+    
     /* Footer */
     footer {
         text-align: center;
@@ -84,6 +101,7 @@ ol {
             text-decoration: underline
         }
     }
+}
 
 /* Tablet Styling*/
 @media screen and (min-width: 768px) {
