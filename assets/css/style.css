@@ -60,23 +60,11 @@ hr {
         margin-bottom: 20px !important;
     }
 
-    .title-q {
-        color: var(--red);
-        text-align: center;
-    }
-
     /* Buttons */
     .buttons > a {
         padding: 10px;
         margin: 10px 0;
         font-weight: bold;
-    }
-
-    #next-btn {
-        margin: 20px 40px 0 40px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
     }
 
     /* How To */
@@ -88,11 +76,34 @@ hr {
         margin-bottom: 20px;
     }
 
-    /* Image */
-    #quiz-img {
-        width: 100px
+    /* Quiz */
+    .title-q {
+        color: var(--red);
+        text-align: center;
     }
-    
+
+    .quiz-score {
+        text-align: center;
+    }
+
+    .quiz-img {
+        width: 60%;
+        border-radius: 10px;
+    }
+
+    .wrapper {
+        border: solid 2px var(--red);
+        color: var(--red) !important;
+        padding: 20px 10px 10px 10px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+
+    }
+
+    ul {
+        list-style: none;
+    }
+
     /* Footer */
     footer {
         text-align: center;
@@ -101,10 +112,6 @@ hr {
         .footer-link {
             text-decoration: none;
             color: var(--red) !important;
-        }
-        .footer-link:hover {
-            color: var(--blue) !important;
-            text-decoration: underline
         }
     }
 }
@@ -115,7 +122,7 @@ hr {
     .navbar-brand {
         font-size: 18px !important;
     }
-
+     /* How to */
     #how-to {
         margin: 20px 40px !important;
     }
@@ -151,5 +158,11 @@ hr {
     /* Whole page */
     .header, .buttons {
         padding: 0 60px !important;
+    }
+
+    /* Footer */
+    .footer-link:hover {
+        color: var(--blue) !important;
+        text-decoration: underline
     }
 }

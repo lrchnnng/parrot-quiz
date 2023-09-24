@@ -36,30 +36,33 @@
       </nav>
     <!--- End of nav bar -->
     <main>
-      <!-- Beginning of header section -->
-      <div class="header">
-        <h1 class="title-q">Parrot Quiz</h1>
-      </div>
-      <!-- End of header section -->
+      <div class="wrapper">
+        <div class="quiz-container">
+          <div class="quiz-head">
+            <h1 class="title-q">Parrot Quiz</h1>
+            
+            <div class="quiz-score flex">
+              <span id="correct-score">0</span> /
+              <span id="total-questions">20</span>
+            </div>
+            
+            <div>
+              <img class="quiz-img" id="question" src="assets/images/main-img/amazon.jpg">
+              <ul class="q-options">
+                <li class="btn btn-primary">Option 1</li>
+                <li class="btn btn-danger">Option 2</li>
+                <li class="btn btn-warning">Option 3</li>
+              </ul>
+            </div>
 
-      <!-- Image Question -->
-      <img id="quiz-img" src="">
+            <div class="q-foot">
+              <button type="button" id="check-answer" class="btn btn-dark">Check Answer</button>
+              <button type="button" id="next-question" class="btn btn-dark">Next Question</button>
+            </div>
 
-      <!-- Beginning of button navigation -->
-      <div id="quiz">  
-        <div class="buttons d-grid gap-2">
-            <button id="answer1" class="btn btn-primary" type="button"></button>
-            <button id="answer2" class="btn btn-danger" type="button"></button>
-            <button id="answer3" class="btn btn-warning" type="button"></button>
+          </div>
         </div>
-      </div>
-      <div id="next-btn">
-        <button id="submit" class="btn btn-dark" type="button">Submit</button>
-      </div>
-      <!-- End of button navigation -->
-      <!-- Score count -->
-      <p id="result"></p>
-    </main>
+      </div> 
     <hr>
     <!--Beginning of footer-->
     <footer>
