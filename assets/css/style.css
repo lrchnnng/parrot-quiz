@@ -12,26 +12,9 @@ main {
     padding: 20px;
 }
 
-.colour1 {
-    color: var(--red);
-}
-.colour2 {
-    color: var(--gold);
-}
-.colour3 {
-    color: var(--blue);
-}
 
-.header {
-    .title {
-        color:#0000ff;
-        text-align: center;
-    }
-    .title-img {
-        margin: 0 auto;
-        width: 100%;
-    }
-}
+
+
 
 hr {
     border: dashed 2px var(--blue) !important;
@@ -42,22 +25,29 @@ hr {
     /* Nav bar */
     .navbar-brand {
         font-size: 16px !important;
+        .colour1 {
+            color: var(--red);
+        }
+        .colour2 {
+            color: var(--gold);
+        }
+        .colour3 {
+            color: var(--blue);
+        }
     }
 
-    /* Title */
+    /* Index */
     .header {
-        padding-bottom: 10px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    
-    h1 {
-        font-size: 40px;
-    }
-
-    .title-img {
-        margin-bottom: 20px !important;
+        .title {
+            color:#0000ff;
+            text-align: center;
+            padding-bottom: 10px;
+            font-size: 40px;
+        }
+        .title-img {
+            margin: 0 auto;
+            width: 100%;
+        }
     }
 
     /* Buttons */
@@ -70,7 +60,7 @@ hr {
     /* How To */
     #how-to {
         background-color: #0D6EFD;
-        color: #ffffff !important;
+        color: #ffffff;
         padding: 20px 10px 10px 10px;
         border-radius: 10px;
         margin-bottom: 20px;
@@ -85,24 +75,28 @@ hr {
     .quiz-score {
         text-align: center;
     }
+    
+    .image-cont {
+        margin-bottom: 20px;
+    }
 
     .quiz-img {
-        width: 60%;
+        width: 160px;
         border-radius: 10px;
-        margin-bottom: 20px;
+        display: block;
+        margin: 0 auto;
     }
 
     .wrapper {
         border: solid 2px var(--red);
-        color: var(--red) !important;
-        padding: 20px 10px 10px 10px;
+        color: var(--red);
+        padding: 10px;
         border-radius: 10px;
-        margin-bottom: 20px;
-
+        margin-bottom: 10px;
     }
     
     #q-a {
-        padding: 20px 0;
+        padding: 10px 0;
     }
 
     .q-foot {
@@ -125,48 +119,11 @@ hr {
 
 /* Tablet Styling*/
 @media screen and (min-width: 768px) {
-    /* Nav bar */
-    .navbar-brand {
-        font-size: 18px !important;
-    }
-     /* How to */
-    #how-to {
-        margin: 20px 40px !important;
-    }
-
-    /* Whole page */
-    .header, .buttons {
-        padding: 0 40px;
-    }
+    
 }
 
 /* Desktop Styling*/
 @media screen and (min-width: 1024px){
-    /* Nav bar */
-    .navbar-brand {
-        font-size: 24px !important;
-    }
-    ul {
-        display: inline-block;
-        position: absolute;
-        right: 20px;
-    }
-    
-    /* Title */
-    .title:hover {
-        color: #ff0000;
-    }
-
-    /* How To */
-    #how-to {
-        margin: 20px 60px !important;
-    }
-
-    /* Whole page */
-    .header, .buttons {
-        padding: 0 60px !important;
-    }
-
     /* Footer */
     .footer-link:hover {
         color: var(--blue) !important;
