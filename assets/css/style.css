@@ -50,13 +50,14 @@ hr {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        .title-img {
-            width: 100%;
-        }
     }
     
     h1 {
         font-size: 40px;
+    }
+
+    .title-img {
+        margin-bottom: 20px !important;
     }
 
     .title-q {
@@ -114,6 +115,11 @@ hr {
     .navbar-brand {
         font-size: 18px !important;
     }
+
+    #how-to {
+        margin: 20px 40px !important;
+    }
+
     /* Whole page */
     .header, .buttons {
         padding: 0 40px;
@@ -132,13 +138,18 @@ hr {
         right: 20px;
     }
     
+    /* Title */
+    .title:hover {
+        color: #ff0000;
+    }
+
+    /* How To */
+    #how-to {
+        margin: 20px 60px !important;
+    }
+
     /* Whole page */
     .header, .buttons {
         padding: 0 60px !important;
     }
 }
-
-.title:hover {
-    color: #ff0000;
-}
-
