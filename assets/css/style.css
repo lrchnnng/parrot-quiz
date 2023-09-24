@@ -37,11 +37,6 @@ hr {
     border: dashed 2px var(--blue) !important;
 }
 
-ol {
-    color: var(--blue);
-    padding: 0 40px;
-}
-
 /* Mobile Styling*/
 @media screen and (min-width: 260px) {
     /* Nav bar */
@@ -51,7 +46,7 @@ ol {
 
     /* Title */
     .header {
-        padding-bottom: 20px;
+        padding-bottom: 10px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -83,6 +78,16 @@ ol {
         justify-content: center;
     }
 
+    /* How To */
+    #how-to {
+        background-color: #0D6EFD;
+        color: #ffffff !important;
+        padding: 20px 10px 10px 10px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    /* Image */
     #quiz-img {
         width: 100px
     }
