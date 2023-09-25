@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>Parrot Quiz</title>
 </head>
 <body>
@@ -54,16 +55,16 @@
               <div class="image-cont">
                 <img class="quiz-img" id="question" src="">
               </div>
-              <div class="q-options q-btn d-grid gap-2">
-                <button class="btn btn-danger">Option 1</button>
-                <button class="btn btn-danger">Option 2</button>
-                <button class="btn btn-danger">Option 3</button>
+              <div class="q-btn d-grid gap-2" id="q-options">
+                <button class="btn btn-danger" id="option1"></button>
+                <button class="btn btn-danger" id="option2"></button>
+                <button class="btn btn-danger" id="option3"></button>
               </div>
             </div>
 
             <div class="q-foot gap-2">
-              <button type="button" id="check-answer" class="btn btn-dark btn-sm">Check Answer</button>
-              <button type="button" id="next-question" class="btn btn-dark btn-sm">Next Question</button>
+              <button type="button" id="check-answer" class="btn btn-dark btn-sm" onclick="checkAnswer()">Check Answer</button>
+              <button type="button" id="next-question" class="btn btn-dark btn-sm" onclick="nextQuestion()">Next Question</button>
             </div>
           </div>
         </div>

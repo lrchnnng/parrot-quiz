@@ -139,4 +139,4 @@ Once this is complete you should be able to view the webpage online, this is upd
 
 ## Credits and Acknowledgments
 - [Google Fonts](https://fonts.google.com/)
-- 
+- [Fisher-Yates Shuffle Array](https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array)

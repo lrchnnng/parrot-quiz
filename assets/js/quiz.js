@@ -151,33 +151,65 @@ const quizQuestions = [
 
 // Targets the image element in the DOM
 const question = document.getElementById('question');
+var currentQuestionIndex = 0; // Starts the current question index at 0
 
-// Starts the current question index at 0
-var currentQuestionIndex = 0;
-
-// (question generated on document load and when 'next question' is pressed
+// question generated on document load
 function getQuestion() {
     
-    // Retreives the object (question) from the current index
     var currentQ = quizQuestions[currentQuestionIndex];
 
-    // Changes the url of question image element
     question.src = currentQ.questionUrl;
+    
+    // Create an array of answer options
+    var answerOptions = [currentQ.a, currentQ.b, currentQ.c];
 
+    // Shuffle the answer options
+    shuffleArray(answerOptions);
+
+    // Assign shuffled answer options to the buttons
+    document.getElementById('option1').textContent = answerOptions[0];
+    document.getElementById('option2').textContent = answerOptions[1];
+    document.getElementById('option3').textContent = answerOptions[2];
 }
 
-// Increment the index for the next question
-currentQuestionIndex++;
+// on button click, next question is generated
+function nextQuestion() {
+    
+    currentQuestionIndex++;
 
-// Checks if all questions have been displayed, if true, reset quiz
-if (currentQuestionIndex >= quizQuestions.length) {
+    if (currentQuestionIndex >= quizQuestions.length) {
     currentQuestionIndex = 0;
+    }
+
+    var currentQ = quizQuestions[currentQuestionIndex];
+    
+    question.src = currentQ.questionUrl;
+
+    // Create an array of answer options
+    var answerOptions = [currentQ.a, currentQ.b, currentQ.c];
+
+    // Shuffle the answer options
+    shuffleArray(answerOptions);
+
+    // Assign shuffled answer options to the buttons
+    document.getElementById('option1').textContent = answerOptions[0];
+    document.getElementById('option2').textContent = answerOptions[1];
+    document.getElementById('option3').textContent = answerOptions[2];
 }
 
 // checkAnswer (checks if chosen answer === correct answer)
+function checkAnswer() {
+
+}
+
+// Function to shuffle an array using the Fisher-Yates algorithm
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
 
 // incorrectAnswer (-1 point)
 
 // correctAnswer (+1 point)
-
-// Array of questions (img url and text answers)
