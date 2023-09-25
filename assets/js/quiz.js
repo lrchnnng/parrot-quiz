@@ -197,11 +197,6 @@ function nextQuestion() {
     document.getElementById('option3').textContent = answerOptions[2];
 }
 
-// checkAnswer (checks if chosen answer === correct answer)
-function checkAnswer() {
-
-}
-
 // Function to shuffle an array using the Fisher-Yates algorithm
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -209,6 +204,21 @@ function shuffleArray(array) {
         [array[i], array[j]] = [array[j], array[i]];
     }
 }
+
+// checkAnswer (checks if chosen answer === correct answer)
+function checkAnswer(event) {
+    if (userAnswer === quizQuestions[a] {
+        correctAnswer();
+    } else {
+        incorrectAnswer();
+    }
+}
+
+// Event listener to store which answer user selects
+const answerButtons = document.querySelectorAll('.answer-btn');
+answerButtons.forEach(button) => {
+    button.addEventListener('click', checkAnswer);
+});
 
 // incorrectAnswer (-1 point)
 
