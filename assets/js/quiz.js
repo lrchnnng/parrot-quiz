@@ -1,6 +1,8 @@
+$(document).ready(function() {
+    getQuestion();
+    console.log("ready!");
+});
 
-
-const question = document.getElementById('question');
 const options = document.querySelector('.q-options');
 
 // An array of objects containing quiz images and answers
@@ -147,15 +149,31 @@ const quizQuestions = [
      },
 ]
 
-/**
- * getQuestion 
- * (question generated on document load and when
- * submit button is pressed)
- */
+// Targets the image element in the DOM
+const question = document.getElementById('question');
 
-function getQuestion = {
+// Starts the current question index at 0
+var currentQuestionIndex = 0;
+
+// (question generated on document load and when 'next question' is pressed
+function getQuestion() {
     
+    // Retreives the object (question) from the current index
+    var currentQ = quizQuestions[currentQuestionIndex];
+
+    // Changes the url of question image element
+    question.src = currentQ.questionUrl;
+
 }
+
+// Increment the index for the next question
+currentQuestionIndex++;
+
+// Checks if all questions have been displayed, if true, reset quiz
+if (currentQuestionIndex >= quizQuestions.length) {
+    currentQuestionIndex = 0;
+}
+
 // checkAnswer (checks if chosen answer === correct answer)
 
 // incorrectAnswer (-1 point)
