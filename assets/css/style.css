@@ -9,15 +9,7 @@
 }
 
 main {
-    padding: 20px;
-}
-
-
-
-
-
-hr {
-    border: dashed 2px var(--blue) !important;
+    padding: 10px;
 }
 
 /* Mobile Styling*/
@@ -42,19 +34,22 @@ hr {
             color:#0000ff;
             text-align: center;
             padding-bottom: 10px;
-            font-size: 40px;
+            font-size: 30px;
         }
         .title-img {
             margin: 0 auto;
             width: 100%;
+            border-radius: 10px;
         }
     }
 
     /* Buttons */
-    .buttons > a {
+    .buttons {
+        margin: 10px 0 20px 0;
+        a {
         padding: 10px;
-        margin: 10px 0;
         font-weight: bold;
+        }
     }
 
     /* How To */
@@ -113,6 +108,9 @@ hr {
         .footer-link {
             text-decoration: none;
             color: var(--red) !important;
+        }
+        hr {
+            border: dashed 2px var(--blue) !important;
         }
     }
 }
