@@ -115,8 +115,11 @@ removes colour, Typography, imagery to create a basic view of website and layout
   * CSS
     ![CSS Validation]()
 - **Known bugs and fixes**
-  * 
 
+- **JavaScript Pre-Testing
+* On page load, generate new question
+* On 'check answer', +1 or -1 from score and display message
+* On 'next question', generate new question
 ## User Story
 1. Easily find the location of the festival
   ![a screenshot of the festival map on mobile device](assets/images/README-images/user-story-map-m.png)

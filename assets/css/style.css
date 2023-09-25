@@ -62,6 +62,14 @@ main {
     }
 
     /* Quiz */
+    .wrapper {
+        border: solid 2px var(--red);
+        color: var(--red);
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
     .title-q {
         color: var(--red);
         text-align: center;
@@ -71,6 +79,12 @@ main {
         text-align: center;
     }
     
+    #fun-fact {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
     .image-cont {
         margin-bottom: 20px;
     }
@@ -82,13 +96,7 @@ main {
         margin: 0 auto;
     }
 
-    .wrapper {
-        border: solid 2px var(--red);
-        color: var(--red);
-        padding: 10px;
-        border-radius: 10px;
-        margin-bottom: 10px;
-    }
+    
     
     #q-a {
         padding: 10px 0;
