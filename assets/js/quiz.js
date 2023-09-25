@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    getQuestion();
+    nextQuestion();
     console.log("ready!");
 });
 
@@ -153,35 +153,15 @@ const quizQuestions = [
 const question = document.getElementById('question');
 var currentQuestionIndex = 0; // Starts the current question index at 0
 
-// question generated on document load
-function getQuestion() {
-    
-    var currentQ = quizQuestions[currentQuestionIndex];
-
-    question.src = currentQ.questionUrl;
-    
-    // Create an array of answer options
-    var answerOptions = [currentQ.a, currentQ.b, currentQ.c];
-
-    // Shuffle the answer options
-    shuffleArray(answerOptions);
-
-    // Assign shuffled answer options to the buttons
-    document.getElementById('option1').textContent = answerOptions[0];
-    document.getElementById('option2').textContent = answerOptions[1];
-    document.getElementById('option3').textContent = answerOptions[2];
-}
-
 // on button click, next question is generated
 function nextQuestion() {
-    
+    const currentQ = quizQuestions[currentQuestionIndex];
+
     currentQuestionIndex++;
 
     if (currentQuestionIndex >= quizQuestions.length) {
     currentQuestionIndex = 0;
     }
-
-    var currentQ = quizQuestions[currentQuestionIndex];
     
     question.src = currentQ.questionUrl;
 
@@ -205,21 +185,40 @@ function shuffleArray(array) {
     }
 }
 
-// checkAnswer (checks if chosen answer === correct answer)
 function checkAnswer(event) {
-    if (userAnswer === quizQuestions[a] {
-        correctAnswer();
+    // Get the selected answer from the event target's textContent
+    const selectedAnswer = event.target.textContent;
+
+    // Get the current question
+    const currentQ = quizQuestions[currentQuestionIndex];
+
+    // Compare the selected answer with the correct answer
+    if (selectedAnswer === currentQ.a) {
+        console.log('Correct');
     } else {
-        incorrectAnswer();
+        console.log('Wrong');
     }
 }
 
-// Event listener to store which answer user selects
 const answerButtons = document.querySelectorAll('.answer-btn');
-answerButtons.forEach(button) => {
+answerButtons.forEach((button) => {
     button.addEventListener('click', checkAnswer);
 });
 
-// incorrectAnswer (-1 point)
+function correctAnswer(currentQ) {
+    answerReveal.innerText = `Correct! Did you know: ${currentQ.fact}`;
+    score++; // Increase the score by 1
+    updateScore(); // Update the displayed score
+}
 
-// correctAnswer (+1 point)
+// incorrectAnswer (-1 point)
+function incorrectAnswer() {
+    answerReveal.innerText = 'Incorrect! Better luck next time';
+    score--; // Decrease the score by 1
+    updateScore(); // Update the displayed score
+}
+
+// Function to update the displayed score
+function updateScore() {
+    scoreElement.textContent = `Score: ${score}/${totalQuestions}`;
+}
