@@ -63,8 +63,8 @@ main {
 
     /* Quiz */
     .wrapper {
-        border: solid 2px var(--red);
-        color: var(--red);
+        background-color: var(--red);
+        color: #ffffff;
         padding: 10px;
         border-radius: 10px;
         margin-bottom: 10px;
