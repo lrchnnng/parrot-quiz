@@ -15,13 +15,6 @@ function checkAnswer(event) {
 
 const answerButtons = document.querySelectorAll('.answer-btn');
 
-// Logs button click
-answerButtons.forEach((button) => {
-   button.addEventListener('click', (event) => {
-       console.log('Button clicked'); // Add this line for debugging
-       checkAnswer(event, quizQuestions[currentQuestionIndex]);
-   });
-});
 
 function correctAnswer(currentQ) {
    // answerReveal.innerText = `Correct! Did you know: ${currentQ.fact}`;

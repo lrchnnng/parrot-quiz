@@ -79,8 +79,6 @@ function showQuestion() {
    document.getElementById('option4').innerHTML = currentQuestion.answers[3].text;
 }
 
-
-
 //logs user's button press and triggers checkAnswer()
 answerButton.addEventListener('click', (event) => {
    console.log('Button clicked');
@@ -98,17 +96,19 @@ function checkAnswer(){
       console.log('Wrong');
       wrongAnswer();
    }
-
    /**
-    * If answer.correct === true > correctAnswer()
-    * else if answer.correct === false > wrongAnswer()
-    * 
     * Creates a next button with 'Next' text with class of 'btn btn-outline-light'
     */
 }
 
+var score = 0;
+var currentScore = document.getElementById('score').innerText;
+console.log(score)
+
 // if correct 
 function correctAnswer(){
+   score++;
+   console.log(score)
    // updates button class id to 'btn-outline-light' 
    // score = +1
    // message 'CORRECT!'
