@@ -141,5 +141,6 @@ nextButton.addEventListener('click', () => {
    } else {
       // Handle end of the quiz (e.g., display final score)
       console.log('End of the quiz');
+      nextButton.innerText = 'End of quiz';
    }
 });
