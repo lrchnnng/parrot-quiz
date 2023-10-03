@@ -1,3 +1,8 @@
+/* $(document).ready(function() {
+   showQuestion();
+   console.log("ready!");
+});*/
+
 // An array of objects containing quiz images and answers
 const questions = [
    {
@@ -54,8 +59,5 @@ const questions = [
 
 const questionElement = document.getElementById('question');
 const answerButton = document.getElementById('answer-buttons');
-const nextButton = document.getElementById('next-question');
-
-let currentQuestionIndex = 0;
-let score = 0;
+const nextButton = document.getElementById('next-button');
 

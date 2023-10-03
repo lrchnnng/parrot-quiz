@@ -1,7 +1,4 @@
-$(document).ready(function() {
-    nextQuestion();
-    console.log("ready!");
-});
+
 
 const options = document.querySelector('.q-options');
 
