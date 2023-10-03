@@ -47,24 +47,25 @@
               <span id="correct-score"></span> / 20
               </p>
             </div>
-
-            <div>
-              <span id="fun-fact"></span>
-            </div>
             
             <div id="q-a">
               <div class="image-cont">
                 <img class="quiz-img" id="question" src="">
               </div>
-              <div class="q-btn d-grid gap-2" id="q-options">
+              <div class="q-btn d-grid gap-2" id="answer-buttons">
                 <button class="btn btn-light answer-btn" id="option1"></button>
                 <button class="btn btn-light answer-btn" id="option2"></button>
                 <button class="btn btn-light answer-btn" id="option3"></button>
+                <button class="btn btn-light answer-btn" id="option4"></button>
               </div>
             </div>
-
+            
+            <div>
+              <span id="fun-fact"></span>
+            </div>
+            
             <div class="q-foot gap-2">
-              <button type="button" id="next-question" class="btn btn-dark btn-sm" onclick="nextQuestion()">Next Question</button>
+              <button type="button" id="next-question" class="btn btn-outline-light btn-sm" onclick="nextQuestion()">Next Question</button>
             </div>
           </div>
         </div>
