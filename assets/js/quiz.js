@@ -78,12 +78,14 @@ function showQuestion() {
    document.getElementById('option3').innerHTML = currentQuestion.answers[2].text;
    document.getElementById('option4').innerHTML = currentQuestion.answers[3].text;
 
+   document.getElementById('fun-fact').innerText = "";
    document.getElementById('answer-message').innerText = ""
 }
 
 var nextButton = document.createElement('button');
+const nextButtonDiv = document.getElementById('next-btn');
 
-//logs user's button press and triggers checkAnswer()
+//Logs user's answer choice and creates next button
 answerButton.addEventListener('click', (event) => {
    console.log('Button clicked');
    checkAnswer();
@@ -91,11 +93,10 @@ answerButton.addEventListener('click', (event) => {
    nextButton.innerText = 'Next';
    nextButton.classList.add('btn', 'btn-outline-light');
    
-   const nextButtonDiv = document.getElementById('next-btn');
    nextButtonDiv.appendChild(nextButton);
 });
 
-
+// Checks answer and triggers correctAnswer() or wrongAnswer()
 function checkAnswer(){
    const selectedAnswer = currentQuestion.answers.find(answer => answer.text === event.target.textContent);
    
@@ -106,15 +107,12 @@ function checkAnswer(){
       console.log('Wrong');
       wrongAnswer();
    }
-   /**
-    * Creates a next button with 'Next' text with class of 'btn btn-outline-light'
-    */
 }
 
 var score = 0;
 console.log(score)
 
-// if correct 
+// if correct = score + 1, Correct message, fun fact
 function correctAnswer(){
    score++;
    console.log(score);
@@ -122,18 +120,17 @@ function correctAnswer(){
    document.getElementById('fun-fact').innerText = currentQuestion.fact;
    document.getElementById('answer-message').innerText = "Correct!"
    // updates button class id to 'btn-outline-light' 
-   // message 'CORRECT!'
    // adds fun fact section above next button
 }
 
-//if incorrect
+//if incorrect = score - 1, wrong message, removes fact
 function wrongAnswer(){
    score--;
    console.log(score);
    document.getElementById('score').innerText = score;
-   document.getElementById('answer-message').innerText = "Wrong!"
+   document.getElementById('answer-message').innerText = "Sorry, that's wrong!"
+   document.getElementById('fun-fact').innerText = "";
    // updates button class id to 'btn-outline-dark' 
-   // message 'Sorry, that's wrong'
 }
 
 nextButton.addEventListener('click', () => {
