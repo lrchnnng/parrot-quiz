@@ -109,6 +109,7 @@ function correctAnswer(){
    score++;
    console.log(score);
    document.getElementById('score').innerText = score;
+   document.getElementById('fun-fact').innerText = currentQuestion.fact;
    // updates button class id to 'btn-outline-light' 
    // score = +1
    // message 'CORRECT!'
@@ -117,9 +118,11 @@ function correctAnswer(){
 
 //if incorrect
 function wrongAnswer(){
+   score--;
+   console.log(score);
+   document.getElementById('score').innerText = score;
    // updates button class id to 'btn-outline-dark' 
    // score = -1
    // message 'Sorry, that's wrong'
-
 }
 
