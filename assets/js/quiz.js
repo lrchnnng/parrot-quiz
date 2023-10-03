@@ -78,6 +78,8 @@ function showQuestion() {
    document.getElementById('option2').innerHTML = currentQuestion.answers[1].text;
    document.getElementById('option3').innerHTML = currentQuestion.answers[2].text;
    document.getElementById('option4').innerHTML = currentQuestion.answers[3].text;
+
+   document.getElementById('answer-message').innerText = ""
 }
 
 //logs user's button press and triggers checkAnswer()
@@ -111,7 +113,7 @@ function correctAnswer(){
    console.log(score);
    document.getElementById('score').innerText = score;
    document.getElementById('fun-fact').innerText = currentQuestion.fact;
-   
+   document.getElementById('answer-message').innerText = "Correct!"
    // updates button class id to 'btn-outline-light' 
    // message 'CORRECT!'
    // adds fun fact section above next button
@@ -122,7 +124,7 @@ function wrongAnswer(){
    score--;
    console.log(score);
    document.getElementById('score').innerText = score;
-
+   document.getElementById('answer-message').innerText = "Wrong!"
    // updates button class id to 'btn-outline-dark' 
    // message 'Sorry, that's wrong'
 }
