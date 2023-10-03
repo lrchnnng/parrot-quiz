@@ -64,7 +64,7 @@ const questions = [
          {text: "Pionus", correct: true},
          {text: "Cockatiel", correct: false},
       ],
-      fact: "All Pionus parrots have red feathers at the vent (underneath their tailes)!",
+      fact: "All Pionus parrots have red feathers at the vent (underneath their tails)!",
    },
    {
       question: 'assets/images/main-img/hyacinth.jpg',
@@ -114,7 +114,7 @@ const questions = [
          {text: "Quaker", correct: true},
          {text: "Cockatiel", correct: false},
       ],
-      fact: "Quakers are the only parrots that build communal nests, which can house up to 50 birds.",
+      fact: "Quakers are the only parrots that build communal nests, which can house up to 50 birds!",
    },
    {
       question: 'assets/images/main-img/lovebird.jpg',
@@ -184,7 +184,7 @@ const questions = [
          {text: "Caique", correct: false},
          {text: "Gala Cockatoo", correct: false},
       ],
-      fact: "Goffin's cockatoos are loving and affectionate, they bond strongly with their owners and require daily interaction to maintain their mental and emotional health",
+      fact: "Goffin's cockatoos are loving and affectionate, they bond strongly with their owners and require daily interaction to maintain their mental and emotional health!",
    },
    {
       question: 'assets/images/main-img/sun.jpg',
