@@ -61,7 +61,6 @@ const questions = [
 // targets buttons and question element
 const questionElement = document.getElementById('question');
 const answerButton = document.getElementById('answer-buttons');
-const nextButton = document.getElementById('next-button');
 
 // Targets the image element in the DOM
 const question = document.getElementById('question');
@@ -82,10 +81,18 @@ function showQuestion() {
    document.getElementById('answer-message').innerText = ""
 }
 
+var nextButton = document.createElement('button');
+
 //logs user's button press and triggers checkAnswer()
 answerButton.addEventListener('click', (event) => {
    console.log('Button clicked');
    checkAnswer();
+  
+   nextButton.innerText = 'Next';
+   nextButton.classList.add('btn', 'btn-outline-light');
+   
+   const nextButtonDiv = document.getElementById('next-btn');
+   nextButtonDiv.appendChild(nextButton);
 });
 
 
