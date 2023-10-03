@@ -58,6 +58,7 @@ const questions = [
    },
 ]
 
+// targets buttons and question element
 const questionElement = document.getElementById('question');
 const answerButton = document.getElementById('answer-buttons');
 const nextButton = document.getElementById('next-button');
@@ -65,7 +66,7 @@ const nextButton = document.getElementById('next-button');
 // Targets the image element in the DOM
 const question = document.getElementById('question');
 var currentQuestionIndex = 0; // Starts the current question index at 0
-const currentQuestion = questions[currentQuestionIndex];
+var currentQuestion = questions[currentQuestionIndex];
 
 function showQuestion() {
    currentQuestionIndex + 1;
@@ -110,8 +111,8 @@ function correctAnswer(){
    console.log(score);
    document.getElementById('score').innerText = score;
    document.getElementById('fun-fact').innerText = currentQuestion.fact;
+   
    // updates button class id to 'btn-outline-light' 
-   // score = +1
    // message 'CORRECT!'
    // adds fun fact section above next button
 }
@@ -126,3 +127,13 @@ function wrongAnswer(){
    // message 'Sorry, that's wrong'
 }
 
+nextButton.addEventListener('click', () => {
+   currentQuestionIndex++;
+   if (currentQuestionIndex < questions.length) {
+      currentQuestion = questions[currentQuestionIndex];
+      showQuestion();
+   } else {
+      // Handle end of the quiz (e.g., display final score)
+      console.log('End of the quiz');
+   }
+});

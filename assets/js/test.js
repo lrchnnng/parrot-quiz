@@ -1,27 +1,5 @@
-function checkAnswer(event) {
-   // Get the selected answer from the event target's textContent
-   const selectedAnswer = event.target.textContent;
-
-   // Get the current question
-   const currentQ = quizQuestions[currentQuestionIndex - 1];
-
-   // Compare the selected answer with the correct answer
-   if (selectedAnswer === currentQ.correct) {
-       console.log('Correct');
-   } else {
-       console.log('Wrong');
-   }
-}
 
 const answerButtons = document.querySelectorAll('.answer-btn');
-
-
-function correctAnswer(currentQ) {
-   // answerReveal.innerText = `Correct! Did you know: ${currentQ.fact}`;
-   score++; // Increase the score by 1
-   updateScore(); // Update the displayed score
-}
-
  {
     questionUrl: 'assets/images/main-img/pionus.jpg',
     a: 'Pionus',
