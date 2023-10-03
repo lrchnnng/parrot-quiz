@@ -71,12 +71,13 @@ main {
     }
 
     .title-q {
-        color: var(--red);
+        color: #ffffff;
         text-align: center;
     }
 
     .quiz-score {
         text-align: center;
+        color: #ffffff;
     }
     
     #fun-fact {
@@ -96,8 +97,6 @@ main {
         margin: 0 auto;
     }
 
-    
-    
     #q-a {
         padding: 10px 0;
     }

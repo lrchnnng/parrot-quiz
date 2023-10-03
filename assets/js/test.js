@@ -1,18 +1,24 @@
-// question generated on document load
-function getQuestion() {
-    
-    const currentQ = quizQuestions[currentQuestionIndex];
 
-    question.src = currentQ.questionUrl;
-    
-    // Create an array of answer options
-    var answerOptions = [currentQ.a, currentQ.b, currentQ.c];
 
-    // Shuffle the answer options
-    shuffleArray(answerOptions);
 
-    // Assign shuffled answer options to the buttons
-    document.getElementById('option1').textContent = answerOptions[0];
-    document.getElementById('option2').textContent = answerOptions[1];
-    document.getElementById('option3').textContent = answerOptions[2];
+
+ 
+
+
+function correctAnswer(currentQ) {
+    // answerReveal.innerText = `Correct! Did you know: ${currentQ.fact}`;
+    score++; // Increase the score by 1
+    updateScore(); // Update the displayed score
+}
+
+// incorrectAnswer (-1 point)
+function incorrectAnswer() {
+    // answerReveal.innerText = 'Incorrect! Better luck next time';
+    score--; // Decrease the score by 1
+    updateScore(); // Update the displayed score
+}
+
+// Function to update the displayed score
+function updateScore() {
+    scoreElement.textContent = `Score: ${score}/${totalQuestions}`;
 }

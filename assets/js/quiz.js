@@ -149,76 +149,66 @@ const quizQuestions = [
      },
 ]
 
+
 // Targets the image element in the DOM
 const question = document.getElementById('question');
 var currentQuestionIndex = 0; // Starts the current question index at 0
 
-// on button click, next question is generated
 function nextQuestion() {
-    const currentQ = quizQuestions[currentQuestionIndex];
+   const currentQ = quizQuestions[currentQuestionIndex];
 
-    currentQuestionIndex++;
+   currentQuestionIndex++;
 
-    if (currentQuestionIndex >= quizQuestions.length) {
-    currentQuestionIndex = 0;
-    }
-    
-    question.src = currentQ.questionUrl;
+   if (currentQuestionIndex >= quizQuestions.length) {
+   currentQuestionIndex = 0;
+   }
+   
+   question.src = currentQ.questionUrl;
 
-    // Create an array of answer options
-    var answerOptions = [currentQ.a, currentQ.b, currentQ.c];
+   // Create an array of answer options
+   var answerOptions = [currentQ.a, currentQ.b, currentQ.c];
 
-    // Shuffle the answer options
-    shuffleArray(answerOptions);
+   // Shuffle the answer options
+   shuffleArray(answerOptions);
 
-    // Assign shuffled answer options to the buttons
-    document.getElementById('option1').textContent = answerOptions[0];
-    document.getElementById('option2').textContent = answerOptions[1];
-    document.getElementById('option3').textContent = answerOptions[2];
+   // Assign shuffled answer options to the buttons
+   document.getElementById('option1').textContent = answerOptions[0];
+   document.getElementById('option2').textContent = answerOptions[1];
+   document.getElementById('option3').textContent = answerOptions[2];
 }
 
 // Function to shuffle an array using the Fisher-Yates algorithm
 function shuffleArray(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]];
-    }
+   for (let i = array.length - 1; i > 0; i--) {
+       const j = Math.floor(Math.random() * (i + 1));
+       [array[i], array[j]] = [array[j], array[i]];
+   }
 }
 
-function checkAnswer(event) {
-    // Get the selected answer from the event target's textContent
-    const selectedAnswer = event.target.textContent;
+function checkAnswer(event, currentQ) {
+   // Get the selected answer from the event target's textContent
+   const selectedAnswer = event.target.textContent;
 
-    // Get the current question
-    const currentQ = quizQuestions[currentQuestionIndex];
-
-    // Compare the selected answer with the correct answer
-    if (selectedAnswer === currentQ.a) {
-        console.log('Correct');
-    } else {
-        console.log('Wrong');
-    }
+   // Compare the selected answer with the correct answer
+   if (selectedAnswer === currentQ.a) {
+       console.log('Correct');
+   } else {//(selectedAnswer  === currentQ.b || selectedAnswer === currentQ.c) {
+       console.log('Wrong');
+   }
 }
 
 const answerButtons = document.querySelectorAll('.answer-btn');
+
+// Logs button click
 answerButtons.forEach((button) => {
-    button.addEventListener('click', checkAnswer);
+   button.addEventListener('click', (event) => {
+       console.log('Button clicked'); // Add this line for debugging
+       checkAnswer(event, quizQuestions[currentQuestionIndex]);
+   });
 });
 
 function correctAnswer(currentQ) {
-    answerReveal.innerText = `Correct! Did you know: ${currentQ.fact}`;
-    score++; // Increase the score by 1
-    updateScore(); // Update the displayed score
-}
-
-// incorrectAnswer (-1 point)
-function incorrectAnswer() {
-    answerReveal.innerText = 'Incorrect! Better luck next time';
-    score--; // Decrease the score by 1
-    updateScore(); // Update the displayed score
-}
-
-// Function to update the displayed score
-function updateScore() {
-    scoreElement.textContent = `Score: ${score}/${totalQuestions}`;
+   // answerReveal.innerText = `Correct! Did you know: ${currentQ.fact}`;
+   score++; // Increase the score by 1
+   updateScore(); // Update the displayed score
 }
