@@ -122,8 +122,8 @@ function wrongAnswer(){
    score--;
    console.log(score);
    document.getElementById('score').innerText = score;
+
    // updates button class id to 'btn-outline-dark' 
-   // score = -1
    // message 'Sorry, that's wrong'
 }
 
