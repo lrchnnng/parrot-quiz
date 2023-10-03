@@ -65,11 +65,10 @@ const nextButton = document.getElementById('next-button');
 // Targets the image element in the DOM
 const question = document.getElementById('question');
 var currentQuestionIndex = 0; // Starts the current question index at 0
+const currentQuestion = questions[currentQuestionIndex];
 
 function showQuestion() {
    currentQuestionIndex + 1;
-   
-   const currentQuestion = questions[currentQuestionIndex];
    
    // Adds image question
    questionElement.src = currentQuestion.question;
@@ -80,10 +79,26 @@ function showQuestion() {
    document.getElementById('option4').innerHTML = currentQuestion.answers[3].text;
 }
 
+
+
 //logs user's button press and triggers checkAnswer()
-addEventListener
+answerButton.addEventListener('click', (event) => {
+   console.log('Button clicked');
+   checkAnswer();
+});
+
 
 function checkAnswer(){
+   const selectedAnswer = currentQuestion.answers.find(answer => answer.text === event.target.textContent);
+   
+   if (selectedAnswer && selectedAnswer.correct) {
+      console.log('Correct');
+      correctAnswer();
+   } else {
+      console.log('Wrong');
+      wrongAnswer();
+   }
+
    /**
     * If answer.correct === true > correctAnswer()
     * else if answer.correct === false > wrongAnswer()
