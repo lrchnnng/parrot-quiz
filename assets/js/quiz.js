@@ -102,13 +102,13 @@ function checkAnswer(){
 }
 
 var score = 0;
-var currentScore = document.getElementById('score').innerText;
 console.log(score)
 
 // if correct 
 function correctAnswer(){
    score++;
-   console.log(score)
+   console.log(score);
+   document.getElementById('score').innerText = score;
    // updates button class id to 'btn-outline-light' 
    // score = +1
    // message 'CORRECT!'
