@@ -210,12 +210,13 @@ const questions = [
 
 // targets buttons and question element
 const questionElement = document.getElementById('question');
-const answerButton = document.getElementById('answer-buttons');
+const answerButtons = document.getElementById('answer-buttons');
 
 // Targets the image element in the DOM
 const question = document.getElementById('question');
 var currentQuestionIndex = 0; // Starts the current question index at 0
 var currentQuestion = questions[currentQuestionIndex];
+const answerBtn = document.querySelectorAll('.answer-btn');
 
 function showQuestion() {
    currentQuestionIndex + 1;
@@ -229,28 +230,39 @@ function showQuestion() {
    document.getElementById('option4').innerHTML = currentQuestion.answers[3].text;
 
    document.getElementById('fun-fact').innerText = "";
-   document.getElementById('answer-message').innerText = ""
+   document.getElementById('answer-message').innerText = "";
+
+   answerBtn.forEach(button => {
+      button.disabled = false;
+   });
 }
 
 var nextButton = document.createElement('button');
 const nextButtonDiv = document.getElementById('next-btn');
 
 //Logs user's answer choice and creates next button
-answerButton.addEventListener('click', (event) => {
+answerButtons.addEventListener('click', (event) => {
    console.log('Button clicked');
    checkAnswer();
-  
+   
    nextButton.innerText = 'Next';
    nextButton.classList.add('btn', 'btn-outline-light');
-   
    nextButtonDiv.appendChild(nextButton);
+   
+   disableAllAnswerButtons();
 });
+
+function disableAllAnswerButtons() {
+   answerBtn.forEach(button => {
+      button.disabled = true;
+   });
+}
 
 // Checks answer and triggers correctAnswer() or wrongAnswer()
 function checkAnswer(){
    const selectedAnswer = currentQuestion.answers.find(answer => answer.text === event.target.textContent);
    
-   if (selectedAnswer && selectedAnswer.correct) {
+   if (selectedAnswer && selectedAnswer.correct && ) {
       console.log('Correct');
       correctAnswer();
    } else {
