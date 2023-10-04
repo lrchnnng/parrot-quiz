@@ -242,8 +242,10 @@ const nextButtonDiv = document.getElementById('next-btn');
 
 //Logs user's answer choice and creates next button
 answerButtons.addEventListener('click', (event) => {
+   if (!event.target.disabled) {
    console.log('Button clicked');
-   checkAnswer();
+   checkAnswer(event);
+   };
    
    nextButton.innerText = 'Next';
    nextButton.classList.add('btn', 'btn-outline-light');
@@ -256,13 +258,14 @@ function disableAllAnswerButtons() {
    answerBtn.forEach(button => {
       button.disabled = true;
    });
+
 }
 
 // Checks answer and triggers correctAnswer() or wrongAnswer()
 function checkAnswer(){
    const selectedAnswer = currentQuestion.answers.find(answer => answer.text === event.target.textContent);
    
-   if (selectedAnswer && selectedAnswer.correct && ) {
+   if (selectedAnswer && selectedAnswer.correct) {
       console.log('Correct');
       correctAnswer();
    } else {
@@ -281,7 +284,7 @@ function correctAnswer(){
    document.getElementById('score').innerText = score;
    document.getElementById('fun-fact').innerText = currentQuestion.fact;
    document.getElementById('answer-message').innerText = "Correct!"
-   // updates button class id to 'btn-outline-light' 
+ 
    // adds fun fact section above next button
 }
 
