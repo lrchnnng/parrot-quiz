@@ -114,7 +114,11 @@ removes colour, Typography, imagery to create a basic view of website and layout
     ![HTML Validation]()
   * CSS
     ![CSS Validation]()
+    
 - **Known bugs and fixes**
+  * Had issues with the score being logged once a button was disabled, attempted a multitude of fixes including:
+    1. Adding if/else statements to event listener so that the checkAnswer() function is only called if the button is active.
+    2. Adding if/else statements to checkAnswer() function so that if the button is disabled it cancels the calling of the function.
 
 - **JavaScript Pre-Testing
 * On page load, generate new question
