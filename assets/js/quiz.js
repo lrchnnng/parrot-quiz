@@ -56,7 +56,7 @@ const questions = [
       ],
       fact: "Yellow-Naped Amazon parrots can live for over 50 years when cared for by humans!",
    },
-   {
+   /** {
       question: 'assets/images/main-img/pionus.jpg',
       answers: [
          {text: "Caique", correct: false},
@@ -205,7 +205,7 @@ const questions = [
          {text: "Lorikeet", correct: false},
       ],
       fact: 'Kākāriki, is a Māori word, meaning “little parrot", they weigh around 113 grams but are robust and hardy birds with strong beaks!',
-   },
+   },**/
 ]
 
 // targets buttons and question element
@@ -283,7 +283,7 @@ console.log(score)
 function correctAnswer(){
    score++;
    console.log(score);
-   document.getElementById('score').innerText = score;
+   document.getElementById('q-score').innerText = score;
    document.getElementById('fun-fact').innerText = currentQuestion.fact;
    document.getElementById('answer-message').innerText = "Correct!"
 }
@@ -292,9 +292,9 @@ function correctAnswer(){
 function wrongAnswer(){
    score--;
    console.log(score);
-   document.getElementById('score').innerText = score;
+   document.getElementById('q-score').innerText = score;
    document.getElementById('answer-message').innerText = "Sorry, that's wrong!"
-   document.getElementById('fun-fact').innerText = "";
+   document.getElementById('fun-fact').innerText = " ";
 }
 
 nextButton.addEventListener('click', () => {
@@ -303,11 +303,14 @@ nextButton.addEventListener('click', () => {
       currentQuestion = questions[currentQuestionIndex];
       showQuestion();
    } else {
-      window.location.href = 'score.html'
-      finalScore();
-   }
-});
-
-function finalScore(){
+      const scoreMessage = finalScoreMessage(score);
+         
+      // Store the score and message in local storage (optional)
+      localStorage.setItem('finalScore', score);
+      localStorage.setItem('scoreMessage', scoreMessage);
    
-}
+      // Navigate to the score page
+      window.location.href = `score.html?score=${score}`;;
+      }
+   }
+);
