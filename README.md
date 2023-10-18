@@ -57,13 +57,13 @@ The second plane of UX looks at the **scope** of the website. What does the user
 
 #### Features
 Homepage:
-* 
+* A simple landing page with a nav bar and navigation buttons to other pages on the site.
 How to play:
-* 
+* A page that explains how the quiz will work, includes a navigation button to begin the quiz.
 Quiz:
-* 
+* An interactive quiz page with an image as the question and four options for the user to choose from.
 Scores:
-* 
+* A page that takes the score from the quiz and displays the final user score once the quiz is finished.
 
 ### Structure
 I created a userflow diagram to show how the user will interact with each page on the site.

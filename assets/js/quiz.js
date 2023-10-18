@@ -130,7 +130,9 @@ function showQuestion() {
       document.getElementById('option3').innerHTML = currentQuestion.answers[2].text;
       document.getElementById('option4').innerHTML = currentQuestion.answers[3].text;
    } else {
-      console.log("Quiz finished");
+      console.log('end of quiz')
+      // Navigate to the score page
+      window.location.href = `score.html?score=${score}`;;
    }
 }
 
@@ -170,21 +172,3 @@ function wrongAnswer(){
    console.log(score);
    document.getElementById('q-score').innerText = score;
 }
-
-/* nextButton.addEventListener('click', () => {
-   currentQuestionIndex++;
-   if (currentQuestionIndex < questions.length) {
-      currentQuestion = questions[currentQuestionIndex];
-      showQuestion();
-   } else {
-      const scoreMessage = finalScoreMessage(score);
-         
-      // Store the score and message in local storage (optional)
-      localStorage.setItem('finalScore', score);
-      localStorage.setItem('scoreMessage', scoreMessage);
-   
-      // Navigate to the score page
-      window.location.href = `score.html?score=${score}`;;
-      }
-   }
-); */
