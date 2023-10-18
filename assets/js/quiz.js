@@ -219,8 +219,8 @@ var currentQuestion = questions[currentQuestionIndex];
 const answerBtn = document.querySelectorAll('.answer-btn');
 
 function showQuestion() {
-   currentQuestionIndex + 1;
-   
+   currentQuestionIndex += 1;
+
    // Adds image question
    questionElement.src = currentQuestion.question;
    
@@ -228,13 +228,6 @@ function showQuestion() {
    document.getElementById('option2').innerHTML = currentQuestion.answers[1].text;
    document.getElementById('option3').innerHTML = currentQuestion.answers[2].text;
    document.getElementById('option4').innerHTML = currentQuestion.answers[3].text;
-
-   document.getElementById('fun-fact').innerText = "";
-   document.getElementById('answer-message').innerText = "";
-
-   answerBtn.forEach(button => {
-      button.disabled = false;
-   });
 }
 
 var nextButton = document.createElement('button');
@@ -242,26 +235,9 @@ const nextButtonDiv = document.getElementById('next-btn');
 
 //Logs user's answer choice and creates next button
 answerButtons.addEventListener('click', (event) => {
-   const clickedButton = event.target;
-
-   if (!clickedButton.disabled) {
-   console.log('Button clicked');
    checkAnswer(event);
-   };
-   
-   nextButton.innerText = 'Next';
-   nextButton.classList.add('btn', 'btn-outline-light');
-   nextButtonDiv.appendChild(nextButton);
-   
-   disableAllAnswerButtons();
+   showQuestion()
 });
-
-function disableAllAnswerButtons() {
-   answerBtn.forEach(button => {
-      button.disabled = true;
-   });
-
-}
 
 // Checks answer and triggers correctAnswer() or wrongAnswer()
 function checkAnswer(event) {
@@ -284,8 +260,6 @@ function correctAnswer(){
    score++;
    console.log(score);
    document.getElementById('q-score').innerText = score;
-   document.getElementById('fun-fact').innerText = currentQuestion.fact;
-   document.getElementById('answer-message').innerText = "Correct!"
 }
 
 //if incorrect = score - 1, wrong message, removes fact
@@ -293,8 +267,6 @@ function wrongAnswer(){
    score--;
    console.log(score);
    document.getElementById('q-score').innerText = score;
-   document.getElementById('answer-message').innerText = "Sorry, that's wrong!"
-   document.getElementById('fun-fact').innerText = " ";
 }
 
 nextButton.addEventListener('click', () => {
