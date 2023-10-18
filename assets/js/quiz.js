@@ -56,7 +56,7 @@ const questions = [
       ],
       fact: "Yellow-Naped Amazon parrots can live for over 50 years when cared for by humans!",
    },
-   /** {
+   /* {
       question: 'assets/images/main-img/pionus.jpg',
       answers: [
          {text: "Caique", correct: false},
@@ -105,106 +105,6 @@ const questions = [
          {text: "Indian Ringneck", correct: true},
       ],
       fact: "Indian Ringnecks can learn up to 200 words, they love learning new things!",
-   },
-   {
-      question: 'assets/images/main-img/quaker.jpg',
-      answers: [
-         {text: "Eclectus", correct: false},
-         {text: "Green Cheek Conure", correct: false},
-         {text: "Quaker", correct: true},
-         {text: "Cockatiel", correct: false},
-      ],
-      fact: "Quakers are the only parrots that build communal nests, which can house up to 50 birds!",
-   },
-   {
-      question: 'assets/images/main-img/lovebird.jpg',
-      answers: [
-         {text: "Lovebird", correct: true},
-         {text: "Goffin's Cockatoo", correct: false},
-         {text: "Scarlet Macaw", correct: false},
-         {text: "Meyer's", correct: false},
-      ],
-      fact: "Lovebirds mate for life (living up to their name)!",
-   },
-   {
-      question: 'assets/images/main-img/lori.jpg',
-      answers: [
-         {text: "Indian Ringneck", correct: false},
-         {text: "Senegal", correct: false},
-         {text: "Lorikeet", correct: true},
-         {text: "Quaker", correct: false},
-      ],
-      fact: "Lorikeets have special brush-like tongues used to eat the nectar from flowers!",
-   },
-   {
-      question: 'assets/images/main-img/galah.jpg',
-      answers: [
-         {text: "Quaker", correct: false},
-         {text: "Eclectus", correct: false},
-         {text: "Senegal", correct: false},
-         {text: "Galah Cockatoo", correct: true},
-      ],
-      fact: "The word 'Galah' is a slang term in the native Australian language. It means fool or a loud-mouthed fool!",
-   },
-   {
-      question: 'assets/images/main-img/senegal.jpg',
-      answers: [
-         {text: "Burrowing", correct: false},
-         {text: "Senegal", correct: true},
-         {text: "Green Cheek Conure", correct: false},
-         {text: "Eclectus", correct: false},
-      ],
-      fact: "Senegal parrots can mimic sounds of their surrounding; some of them may include the creak of a door or ring of the telephone!",
-   },
-   {
-      question: 'assets/images/main-img/burrowing.jpg',
-      answers: [
-         {text: "Burrowing", correct: true},
-         {text: "Yellow-Naped Amazon", correct: false},
-         {text: "Lorikeet", correct: false},
-         {text: "Senegal", correct: false},
-      ],
-      fact: "When in the wild, Burrowing parrots live in colonies on the cliffs, many colonies are seen in Rio Negro, Patagonia!",
-   },
-   {
-      question: 'assets/images/main-img/meyers.jpg',
-      answers: [
-         {text: "Quaker", correct: false},
-         {text: "Burrowing", correct: false},
-         {text: "Senegal", correct: false},
-         {text: "Meyer's", correct: true},
-      ],
-      fact: "Meyer's parrots are quite gentle, quiet, funny, playful, highly intelligent, and social birds!",
-   },
-   {
-      question: 'assets/images/main-img/goffin.jpg',
-      answers: [
-         {text: "Eclectus", correct: false},
-         {text: "Goffin's Cockatoo", correct: true},
-         {text: "Caique", correct: false},
-         {text: "Gala Cockatoo", correct: false},
-      ],
-      fact: "Goffin's cockatoos are loving and affectionate, they bond strongly with their owners and require daily interaction to maintain their mental and emotional health!",
-   },
-   {
-      question: 'assets/images/main-img/sun.jpg',
-      answers: [
-         {text: "Kakariki", correct: false},
-         {text: "Lovebird", correct: false},
-         {text: "Pionus", correct: false},
-         {text: "Sun Conure", correct: true},
-      ],
-      fact: "Sun Conures start out as olive green that slowly changes to yellowish-orange at around 6months of age. By the time they turn 1 they reach their full colour plumage!",
-   },
-   {
-      question: 'assets/images/main-img/kakariki.jpg',
-      answers: [
-         {text: "Kakariki", correct: true},
-         {text: "Scarlet Macaw", correct: false},
-         {text: "Indian Ringneck", correct: false},
-         {text: "Lorikeet", correct: false},
-      ],
-      fact: 'Kākāriki, is a Māori word, meaning “little parrot", they weigh around 113 grams but are robust and hardy birds with strong beaks!',
    },*/
 ]
 
@@ -221,21 +121,25 @@ var currentQuestionIndex = 0;
 var currentQuestion = questions[currentQuestionIndex];
 
 function showQuestion() {
-   currentQuestionIndex ++;
-
-   // Adds image question
-   questionElement.src = currentQuestion.question;
-   
-   document.getElementById('option1').innerHTML = currentQuestion.answers[0].text;
-   document.getElementById('option2').innerHTML = currentQuestion.answers[1].text;
-   document.getElementById('option3').innerHTML = currentQuestion.answers[2].text;
-   document.getElementById('option4').innerHTML = currentQuestion.answers[3].text;
+   // Check if there are more questions
+   if (currentQuestionIndex < questions.length) {
+      currentQuestion = questions[currentQuestionIndex]; // Update currentQuestion
+      questionElement.src = currentQuestion.question;
+      document.getElementById('option1').innerHTML = currentQuestion.answers[0].text;
+      document.getElementById('option2').innerHTML = currentQuestion.answers[1].text;
+      document.getElementById('option3').innerHTML = currentQuestion.answers[2].text;
+      document.getElementById('option4').innerHTML = currentQuestion.answers[3].text;
+   } else {
+      console.log("Quiz finished");
+   }
 }
 
-function userAnswer(event){
+function userAnswer(event) {
    checkAnswer(event);
-   showQuestion();
-};
+   currentQuestionIndex++;
+   showQuestion(); 
+}
+
 
 // Checks answer and triggers correctAnswer() or wrongAnswer()
 function checkAnswer(event) {
@@ -267,8 +171,7 @@ function wrongAnswer(){
    document.getElementById('q-score').innerText = score;
 }
 
-/*
-nextButton.addEventListener('click', () => {
+/* nextButton.addEventListener('click', () => {
    currentQuestionIndex++;
    if (currentQuestionIndex < questions.length) {
       currentQuestion = questions[currentQuestionIndex];
