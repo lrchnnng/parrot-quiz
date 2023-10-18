@@ -53,7 +53,7 @@ First time and returning user goals:
 Another goal for my website was to create an intuitive experience making the page easy to navigate without the user having to think too much about their next move. With the understanding that my user demographic is most likely viewing the website across a variety of devices, I have made sure that the site is fully responsive across screen sizes in order to optimize user experience.
 
 ### Scope
-The second plane of UX looks at the **scope** of the website. What does the user have to do in order to reach the goals for the website. Do they need to search? Do they need to sign up to a newsletter? The important part of this phase is looking at what specific features I will include in order to meet both user and business goals.
+The second plane of UX looks at the **scope** of the website. What does the user have to do in order to reach both the user and the site owners goals for the website.
 
 #### Features
 - **Homepage:**
@@ -68,7 +68,7 @@ A page that takes the score from the quiz and displays the final user score once
 ### Structure
 I created a userflow diagram to show how the user will interact with each page on the site.
 
-![Userflow]()
+![Userflow]("assets/images/readme-img/user-flow.png")
 
 ### Skeleton
 The **skeleton** plane of UX design is a more visual representation of the flow in which a user might use the website. Using wireframes to show a basic design layout 
