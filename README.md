@@ -85,7 +85,8 @@ These wireframes are a simplified version of what I planned for the site. Some a
 
 
 #### Typography
-![google fonts]()
+I opted to use 'Montserrat' across the entire site as it is a simple and easy to read font that has a number of different style options that can be utilised in different areas.
+![google fonts](assets/images/readme-img/google-font.png)
 
 #### Colours
 
