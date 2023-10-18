@@ -74,9 +74,12 @@ I created a userflow diagram to show how the user will interact with each page o
 The **skeleton** plane of UX design is a more visual representation of the flow in which a user might use the website. Using wireframes to show a basic design layout 
 removes colour, Typography, imagery to create a basic view of website and layout
 
+**Mobile Wireframes**
 ![Mobile Wireframes](assets/images/readme-img/mobile-wireframes.png)
-![Tablet Wireframes](assets/images/readme-img/tablet-wireframes.png)
-![Desktop Wireframes](assets/images/readme-img/desktop-wireframes.png)
+**Tablet and Desktop Wireframes**
+![Tablet and Desktop Wireframes](assets/images/readme-img/tablet-wireframes.png)
+
+These wireframes are a simplified version of what I planned for the site. Some areas may have changed between the wireframes and the final product.
 
 ### Surface
 
