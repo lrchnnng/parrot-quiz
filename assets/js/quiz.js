@@ -205,21 +205,23 @@ const questions = [
          {text: "Lorikeet", correct: false},
       ],
       fact: 'Kākāriki, is a Māori word, meaning “little parrot", they weigh around 113 grams but are robust and hardy birds with strong beaks!',
-   },**/
+   },*/
 ]
 
-// targets buttons and question element
+ // Targets buttons and question element
 const questionElement = document.getElementById('question');
 const answerButtons = document.getElementById('answer-buttons');
+const answerBtn = document.querySelectorAll('.answer-btn');
 
 // Targets the image element in the DOM
 const question = document.getElementById('question');
-var currentQuestionIndex = 0; // Starts the current question index at 0
+
+// Starts the current question index at 0
+var currentQuestionIndex = 0; 
 var currentQuestion = questions[currentQuestionIndex];
-const answerBtn = document.querySelectorAll('.answer-btn');
 
 function showQuestion() {
-   currentQuestionIndex += 1;
+   currentQuestionIndex ++;
 
    // Adds image question
    questionElement.src = currentQuestion.question;
@@ -230,14 +232,10 @@ function showQuestion() {
    document.getElementById('option4').innerHTML = currentQuestion.answers[3].text;
 }
 
-var nextButton = document.createElement('button');
-const nextButtonDiv = document.getElementById('next-btn');
-
-//Logs user's answer choice and creates next button
-answerButtons.addEventListener('click', (event) => {
+function userAnswer(event){
    checkAnswer(event);
-   showQuestion()
-});
+   showQuestion();
+};
 
 // Checks answer and triggers correctAnswer() or wrongAnswer()
 function checkAnswer(event) {
@@ -269,6 +267,7 @@ function wrongAnswer(){
    document.getElementById('q-score').innerText = score;
 }
 
+/*
 nextButton.addEventListener('click', () => {
    currentQuestionIndex++;
    if (currentQuestionIndex < questions.length) {
@@ -285,4 +284,4 @@ nextButton.addEventListener('click', () => {
       window.location.href = `score.html?score=${score}`;;
       }
    }
-);
+); */
