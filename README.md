@@ -119,6 +119,7 @@ removes colour, Typography, imagery to create a basic view of website and layout
   * Had issues with the score being logged once a button was disabled, attempted a multitude of fixes including:
     1. Adding if/else statements to event listener so that the checkAnswer() function is only called if the button is active.
     2. Adding if/else statements to checkAnswer() function so that if the button is disabled it cancels the calling of the function.
+    3. **Solution**: Removed the event listener and the generated 'next' button and added onclick targets to each button within the html. With this fix I have had to sacrifice the fun fact and the correct/incorrect answer message.
 
 - **JavaScript Pre-Testing
 * On page load, generate new question

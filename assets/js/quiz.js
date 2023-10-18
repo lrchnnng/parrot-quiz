@@ -56,7 +56,7 @@ const questions = [
       ],
       fact: "Yellow-Naped Amazon parrots can live for over 50 years when cared for by humans!",
    },
-   /* {
+   /* sho{
       question: 'assets/images/main-img/pionus.jpg',
       answers: [
          {text: "Caique", correct: false},
