@@ -68,7 +68,7 @@ A page that takes the score from the quiz and displays the final user score once
 ### Structure
 I created a userflow diagram to show how the user will interact with each page on the site.
 
-![Userflow]("assets/images/readme-img/user-flow.png")
+![Userflow](assets/images/readme-img/user-flow.png)
 
 ### Skeleton
 The **skeleton** plane of UX design is a more visual representation of the flow in which a user might use the website. Using wireframes to show a basic design layout 
