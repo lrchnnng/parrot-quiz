@@ -121,18 +121,17 @@ var currentQuestionIndex = 0;
 var currentQuestion = questions[currentQuestionIndex];
 
 function showQuestion() {
-   // Check if there are more questions
    if (currentQuestionIndex < questions.length) {
-      currentQuestion = questions[currentQuestionIndex]; // Update currentQuestion
-      questionElement.src = currentQuestion.question;
-      document.getElementById('option1').innerHTML = currentQuestion.answers[0].text;
-      document.getElementById('option2').innerHTML = currentQuestion.answers[1].text;
-      document.getElementById('option3').innerHTML = currentQuestion.answers[2].text;
-      document.getElementById('option4').innerHTML = currentQuestion.answers[3].text;
+       currentQuestion = questions[currentQuestionIndex];
+       $('#question').attr('src', currentQuestion.question);
+       $('#option1').text(currentQuestion.answers[0].text);
+       $('#option2').text(currentQuestion.answers[1].text);
+       $('#option3').text(currentQuestion.answers[2].text);
+       $('#option4').text(currentQuestion.answers[3].text);
    } else {
-      console.log('end of quiz')
-      // Navigate to the score page
-      window.location.href = `score.html?score=${score}`;;
+       console.log('end of quiz');
+       // Navigate to the score page
+       window.location.href = `score.html?score=${score}`;
    }
 }
 
@@ -160,15 +159,15 @@ var score = 0;
 console.log(score)
 
 // if correct = score + 1, Correct message, fun fact
-function correctAnswer(){
-   score++;
+function correctAnswer() {
+   score = score + 1;
    console.log(score);
-   document.getElementById('q-score').innerText = score;
+   $('#q-score').text(score);
 }
 
 //if incorrect = score - 1, wrong message, removes fact
-function wrongAnswer(){
-   score--;
+function wrongAnswer() {
+   score = score - 1;
    console.log(score);
-   document.getElementById('q-score').innerText = score;
+   $('#q-score').text(score);
 }

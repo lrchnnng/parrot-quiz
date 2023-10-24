@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function(score) {
     finalScoreMessage();
     console.log("ready!");
  });
