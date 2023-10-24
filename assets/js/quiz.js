@@ -56,7 +56,7 @@ const questions = [
       ],
       fact: "Yellow-Naped Amazon parrots can live for over 50 years when cared for by humans!",
    },
-   /* sho{
+   {
       question: 'assets/images/main-img/pionus.jpg',
       answers: [
          {text: "Caique", correct: false},
@@ -105,7 +105,7 @@ const questions = [
          {text: "Indian Ringneck", correct: true},
       ],
       fact: "Indian Ringnecks can learn up to 200 words, they love learning new things!",
-   },*/
+   },
 ]
 
  // Targets buttons and question element
