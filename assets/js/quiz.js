@@ -141,7 +141,6 @@ function userAnswer(event) {
    showQuestion(); 
 }
 
-
 // Checks answer and triggers correctAnswer() or wrongAnswer()
 function checkAnswer(event) {
    const selectedAnswer = currentQuestion.answers.find(answer => answer.text === event.target.textContent);
@@ -155,7 +154,7 @@ function checkAnswer(event) {
    }
 }
 
-var score = 0;
+let score = 0;
 console.log(score)
 
 // if correct = score + 1, Correct message, fun fact

@@ -1,4 +1,13 @@
-$(document).ready(function(score) {
+// Get the URL query parameters
+const urlParams = new URLSearchParams(window.location.search);
+
+// Get the 'score' parameter from the URL
+const finalScore = urlParams.get('score');
+
+// Use the score as needed
+console.log(`Final Score: ${finalScore}`);
+
+/* $(document).ready(function() {
     finalScoreMessage();
     console.log("ready!");
  });
@@ -16,4 +25,4 @@ function finalScoreMessage(){
    } else if (score === 20){
       console.log('full marks')
    }
-}
+} */
