@@ -150,7 +150,6 @@ function checkAnswer(event) {
       correctAnswer();
    } else {
       console.log('Wrong');
-      wrongAnswer();
    }
 }
 
@@ -160,13 +159,6 @@ console.log(score)
 // if correct = score + 1, Correct message, fun fact
 function correctAnswer() {
    score = score + 1;
-   console.log(score);
-   $('#q-score').text(score);
-}
-
-//if incorrect = score - 1, wrong message, removes fact
-function wrongAnswer() {
-   score = score - 1;
    console.log(score);
    $('#q-score').text(score);
 }

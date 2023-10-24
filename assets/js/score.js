@@ -18,21 +18,21 @@ const finalScoreValue = document.getElementById('f-score');
 
 function finalScoreMessage(){
    finalScoreValue.innerText = finalScore;
-   if (finalScore < 1) {
-      scoreMessage.innerText = "How did you get less than 1?!"
-      console.log('less than 1')
+   if (finalScore === 0) {
+      scoreMessage.innerHTML = '<i class="fas fa-thumbs-down score-icon"></i><p>You got 0 points!</p>';
+      console.log('no points')
    } else if (finalScore <= 4 ){
-      scoreMessage.innerText = "Sorry! Better luck next time!"
+      scoreMessage.innerHTML = '<i class="fas fa-grin-beam-sweat score-icon"></i><p>You can do better!</p>';
       console.log('less than 5')
-   } else if (finalScore === 5) {
-      scoreMessage.innerText = "Half way there!"
+   } else if (finalScore == 5) {
+      scoreMessage.innerHTML = '<i class="fas fa-smile score-icon"></i><p>Half way there!</p>';
       console.log('score is 5')
    } else if (finalScore <= 9) {
-      scoreMessage.innerHTML = "You did great!"
+      scoreMessage.innerHTML = '<i class="fas fa-grin-stars score-icon"></i><p>You did great!</p>';
       console.log('score is 9 or under')
    }
    else if (finalScore === 10){
-      scoreMessage.innerText = "TOP MARKS!"
+      scoreMessage.innerHTML = '<i class="fas fa-trophy score-icon"></i><p>TOP MARKS!</p>';
       console.log('under 10')
    }
 }
