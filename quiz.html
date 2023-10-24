@@ -10,21 +10,21 @@
 </head>
 <body>
     <!-- Beginning of nav bar --> 
-    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
+    <nav class="navbar sticky-top navbar-expand-md md-body-tertiary">
+      <div class="container-fluid">
           <a class="navbar-brand" href="index.html"><span class="colour1">Parrots </span><span class="colour2">Parrots </span><span class="colour3">Parrots!</span></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html"><i class="fas fa-feather-alt"></i> Home</a>
+                <a class="nav-link" aria-current="page" href="index.html"><i class="fas fa-home"></i> Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="how-to.html"><i class="fas fa-question-circle"></i> How to</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item active">
                 <a class="nav-link" href="quiz.html"><i class="fas fa-play-circle"></i> Quiz!</a>
               </li>
             </ul>
@@ -34,10 +34,10 @@
     <!--- End of nav bar -->
     <main>
       <!-- Quiz Section-->
-      <div class="wrapper">
+      <div class="wrapper col-xs-12 col-sm-10 col-md-10 col-lg-8 mx-auto">
         <div class="quiz-container">
-          <div class="header">
-            <h1 class="title">Parrot Quiz</h1>
+          <div class="q-header">
+            <h1 class="header">Parrot Quiz</h1>
             
             <div class="quiz-score">
                 <span>Score: <span id="q-score">0</span> / 10</span>            
@@ -50,7 +50,7 @@
               <div class="message">
                 <p id="answer-message"></p>
               </div>
-              <div class="q-btn d-grid gap-2" id="answer-buttons">
+              <div class="q-btn d-grid gap-2 col-sm-10 mx-auto" id="answer-buttons">
                 <button class="btn btn-light answer-btn" id="option1" onclick="userAnswer(event)"></button>
                 <button class="btn btn-light answer-btn" id="option2" onclick="userAnswer(event)"></button>
                 <button class="btn btn-light answer-btn" id="option3" onclick="userAnswer(event)"></button>
@@ -77,6 +77,7 @@
     <!-- End of footer -->
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/71ece43db9.js" crossorigin="anonymous"></script>
     <script src="assets/js/quiz.js"></script>
 </body>
 </html>

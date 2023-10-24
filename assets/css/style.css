@@ -9,7 +9,7 @@
 }
 
 * {
-    font-family: Montserrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 main {
@@ -17,7 +17,7 @@ main {
 }
 
 /* Mobile Styling*/
-@media screen and (min-width: 260px) {
+@media screen and (min-width: 260px) {    
     /* Nav bar */
     .navbar-brand {
         font-size: 16px !important;
@@ -40,28 +40,19 @@ main {
         color: var(--red) !important;
     }
 
-   
-
     /* Index */
     .index-title {
         color: var(--red);
         text-align: center;
         padding-bottom: 10px;
         font-size: 30px;
+        font-weight: 500;
     }
 
-    .header {
-        .title {
-            color:#ffffff;
-            text-align: center;
-            padding-bottom: 10px;
-            font-size: 30px;
-        }
-        .title-img {
-            margin: 0 auto 20px auto;
-            width: 100%;
-            border-radius: 10px;
-        }
+    .title-img {
+        margin: 0 auto 20px auto;
+        width: 100%;
+        border-radius: 10px;
     }
 
     /* Buttons */
@@ -74,12 +65,18 @@ main {
     }
 
     /* How To */
-    #how-to {
+    .how-to {
         background-color: #0D6EFD;
         color: #ffffff;
-        padding: 20px 10px 10px 10px;
+        padding: 20px;
         border-radius: 10px;
         margin-bottom: 20px;
+        font-size: 14px;
+    }
+
+    .header {
+        margin-bottom: 20px;
+        text-align: center;
     }
 
     /* Quiz */
@@ -167,13 +164,53 @@ main {
 
 /* Tablet Styling*/
 @media screen and (min-width: 768px) {
+    main {
+        padding: 20px 30px;
+    }
+
+    /* Nav Bar */
     nav {
         font-size: 16px;
+    }
+
+    .nav-link {
+        margin-left: 20px;
+    }
+    
+    /* Index */
+    .index-title {
+        color: var(--red);
+        text-align: center;
+        padding-bottom: 10px;
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .how-to {
+        padding: 20px;
+        font-size: 18px;
     }
 }
 
 /* Desktop Styling*/
 @media screen and (min-width: 1024px){
+    main {
+        padding: 40px 60px;
+    }
+
+    /* Nav Bar*/
+    nav {
+        font-size: 18px;
+    }
+
+    /* How To */
+    .how-to {
+        padding: 30px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+
     /* Footer */
     .footer-link:hover {
         color: var(--blue) !important;
