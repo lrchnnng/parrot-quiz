@@ -1,6 +1,10 @@
+@include media-breakpoint-up(sm) { ... }
+@include media-breakpoint-up(md) { ... }
+@include media-breakpoint-up(lg) { ... }
+
 :root {
     --red: #DC3545;
-    --gold: #FFC107;
+    --gold: #dda703;
     --blue: #0D6EFD;
 }
 
@@ -27,6 +31,16 @@ main {
             color: var(--blue);
         }
     }
+    
+    .nav-link {
+        color: var(--blue) !important;
+    }
+    
+    .active {
+        color: var(--red) !important;
+    }
+
+   
 
     /* Index */
     .index-title {
@@ -153,7 +167,9 @@ main {
 
 /* Tablet Styling*/
 @media screen and (min-width: 768px) {
-    
+    nav {
+        font-size: 16px;
+    }
 }
 
 /* Desktop Styling*/

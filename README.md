@@ -89,10 +89,10 @@ I opted to use 'Montserrat' across the entire site as it is a simple and easy to
 ![google fonts](assets/images/readme-img/google-font.png)
 
 #### Colours
-
+![google fonts](assets/images/readme-img/google-font.png)
 
 #### Photography
-  *
+
 
 ### Extras
   * 
