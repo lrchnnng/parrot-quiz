@@ -67,7 +67,7 @@ A page that takes the score from the quiz and displays the final user score once
 
 ### Structure
 I created a userflow diagram to show how the user will interact with each page on the site.
-
+While I had originally planned for the user to lose a point when they answered the question incorrectly, I chose to change this to make it a more fun experience to a younger audience.
 ![Userflow](assets/images/readme-img/user-flow.png)
 
 ### Skeleton
@@ -130,7 +130,7 @@ I used royalty free images of parrots from google images.
     2. Adding if/else statements to checkAnswer() function so that if the button is disabled it cancels the calling of the function.
     3. **Solution**: Removed the event listener and the generated 'next' button and added onclick targets to each button within the html. With this fix I have had to sacrifice the fun fact and the correct/incorrect answer message.
 
-- **JavaScript Testing
+- **JavaScript Testing**
 * I ran both quiz.js and score.js through JS Lint to test them for errors and issues. While there were some warnings related to the use of single and double quotes there were no major issues.
  ![JS Lint Testing](assets/images/readme-img/jslint.png)
  ![JS Lint Testing](assets/images/readme-img/jslint-warnings.png)
