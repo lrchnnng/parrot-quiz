@@ -89,14 +89,12 @@ I opted to use 'Montserrat' across the entire site as it is a simple and easy to
 ![google fonts](assets/images/readme-img/google-font.png)
 
 #### Colours
-![google fonts](assets/images/readme-img/quiz-colours.png)
 I chose to use a simple primary colour palette to keep the pages looking clean and easy to read.
+![google fonts](assets/images/readme-img/quiz-colours.png)
 
 #### Photography
+I used royalty free images of parrots from google images.
 
-
-### Extras
-  * 
 ---
 
 ## Technologies Used
@@ -134,8 +132,9 @@ I chose to use a simple primary colour palette to keep the pages looking clean a
 
 - **JavaScript Pre-Testing
 * On page load, generate new question
-* On 'check answer', +1 or -1 from score and display message
+* On 'check answer', +1 to score and display message
 * On 'next question', generate new question
+
 ## User Story
 1. Easily find the location of the festival
   ![a screenshot of the festival map on mobile device](assets/images/README-images/user-story-map-m.png)
@@ -155,4 +154,7 @@ Once this is complete you should be able to view the webpage online, this is upd
 
 ## Credits and Acknowledgments
 - [Google Fonts](https://fonts.google.com/)
-- [Fisher-Yates Shuffle Array](https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array)
+- [Figma](https://www.figma.com/)
+  * Used to create user flows and wireframes.
+- [ui.dev](https://ui.dev/amiresponsive)
+  * Used to create a mockup of web page on various screen sizes.
