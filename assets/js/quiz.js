@@ -98,11 +98,6 @@ const questions = [
    },
 ]
 
- // Targets buttons and question element
-const questionElement = document.getElementById('question');
-const answerButtons = document.getElementById('answer-buttons');
-const answerBtn = document.querySelectorAll('.answer-btn');
-
 // Targets the image element in the DOM
 const question = document.getElementById('question');
 
