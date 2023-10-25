@@ -1,3 +1,4 @@
+// When the document loads a question is generated immediately
 $(document).ready(function() {
    showQuestion();
    console.log("ready!");
@@ -110,6 +111,7 @@ const question = document.getElementById('question');
 var currentQuestionIndex = 0; 
 var currentQuestion = questions[currentQuestionIndex];
 
+// Generates a new question
 function showQuestion() {
    if (currentQuestionIndex < questions.length) {
        currentQuestion = questions[currentQuestionIndex];
@@ -120,18 +122,20 @@ function showQuestion() {
        $('#option4').text(currentQuestion.answers[3].text);
    } else {
        console.log('end of quiz');
-       // Navigate to the score page
+
+       // Navigate to the score page and stores user score within the url
        window.location.href = `score.html?score=${score}`;
    }
 }
 
+// When user selects an answer a new question is generated
 function userAnswer(event) {
    checkAnswer(event);
    currentQuestionIndex++;
    showQuestion(); 
 }
 
-// Checks answer and triggers correctAnswer() or wrongAnswer()
+// Checks answer and triggers correctAnswer()
 function checkAnswer(event) {
    const selectedAnswer = currentQuestion.answers.find((answer) => answer.text === event.target.textContent);
    
@@ -139,14 +143,15 @@ function checkAnswer(event) {
       console.log('Correct');
       correctAnswer();
    } else {
-      console.log('Wrong');
+      console.log('Wrong')
    }
 }
 
+// Logs user score
 let score = 0;
 console.log(score)
 
-// if correct = score + 1, Correct message, fun fact
+// Ff correct = score + 1
 function correctAnswer() {
    score = score + 1;
    console.log(score);
