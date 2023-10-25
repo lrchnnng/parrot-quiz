@@ -8,7 +8,6 @@ const finalScore = parseInt(finalScoreStr);
 // When document has loaded the final score message is generated
 $(document).ready(function(finalScore) {
     finalScoreMessage();
-    console.log("ready!");
  });
 
 // Accesses elements in the DOM 

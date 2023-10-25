@@ -96,10 +96,7 @@ const questions = [
          {text: 'Indian Ringneck', correct: true},
       ],
    },
-]
-
-// Targets the image element in the DOM
-const question = document.getElementById('question');
+];
 
 // Starts the current question index at 0
 var currentQuestionIndex = 0; 
@@ -140,7 +137,7 @@ function checkAnswer(event) {
 // Logs user score
 let score = 0;
 
-// Ff correct = score + 1
+// If correct = score + 1
 function correctAnswer() {
    score = score + 1;
    $('#q-score').text(score);
