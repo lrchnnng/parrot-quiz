@@ -3,6 +3,8 @@
 # Testing
 - [Lighthouse]{##lighthouse}
 - [HTML and CSS](##html-and-css-validation)
+    - [HTML Validation](###html-validation)
+    - [CSS Validation](###css-validation)
 - [JavaScript Testing](##javascript-testing)
 - [Known Bugs and Fixes](##known-bugs-and-fixes)
 
@@ -12,12 +14,12 @@
   * 
 
 ## HTML and CSS Validation
-  * HTML
+  ### HTML
     ![HTML Validation](assets/images/readme-img/html-validation.png)
     - All of the HTML pages passed the W3C HTML Validator apart from quiz.html.
     ![HTML Validation](assets/images/readme-img/html-error.png)
     - This error has appeared due to me leaving the img element source blank which is replaced within my quiz.js file. I fixed both of these issues by using a '#' as the source and creating a general, none specific alt text attribute (in this case it will always be a picture of a parrot). 
-  * CSS
+  ### CSS
     ![CSS Validation](assets/images/readme-img/html-validation.png)
     - All pages passed the W3C CSS Validation.
     
