@@ -7,7 +7,7 @@
 - [Known Bugs and Fixes](##known-bugs-and-fixes)
 
 
-## Lighthouse**
+## Lighthouse
   ![Lighthouse testing]()
   * 
 
