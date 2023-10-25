@@ -134,6 +134,9 @@ I used royalty free images of parrots from google images.
 * I ran both quiz.js and score.js through JS Lint to test them for errors and issues. While there were some warnings related to the use of single and double quotes there were no major issues.
  ![JS Lint Testing](assets/images/readme-img/jslint.png)
  ![JS Lint Testing](assets/images/readme-img/jslint-warnings.png)
+* Thoughout deveopment I used console logs to test that the functions worked as intended.
+ ![quiz.js console](assets/images/readme-img/quiz-console.png)
+ ![score.js console](assets/images/readme-img/score-console.png)
 
 ## User Story
 1. Easily find the location of the festival
