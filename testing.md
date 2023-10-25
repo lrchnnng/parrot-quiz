@@ -1,7 +1,7 @@
 [Return to README](https://github.com/lrchnnng/parrot-quiz/blob/main/README.md)
 
 # Testing
-- [Lighthouse]{##Lighthouse}
+- [Lighthouse](##Lighthouse)
 - [HTML and CSS](##html-and-css-validation)
     - [HTML Validation](###html-validation)
     - [CSS Validation](###css-validation)
