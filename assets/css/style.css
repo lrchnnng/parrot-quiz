@@ -18,6 +18,13 @@ main {
 
 /* Mobile Styling*/
 @media screen and (min-width: 260px) {    
+    /* General Styling */
+    .header {
+        margin-bottom: 20px;
+        text-align: center;
+        font-weight: 500px;
+    }
+
     /* Nav bar */
     .navbar-brand {
         font-size: 16px !important;
@@ -72,11 +79,6 @@ main {
         border-radius: 10px;
         margin-bottom: 20px;
         font-size: 14px;
-    }
-
-    .header {
-        margin-bottom: 20px;
-        text-align: center;
     }
 
     /* Quiz */
