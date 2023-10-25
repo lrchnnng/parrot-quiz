@@ -6,105 +6,95 @@ $(document).ready(function() {
 // An array of objects containing quiz images and answers
 const questions = [
    {
-      question: 'assets/images/main-img/african.jpg',
+      question: "assets/images/main-img/african.jpg",
       answers: [
-         {text: "African Grey", correct: true},
-         {text: "Cockatiel", correct: false},
-         {text: "Burrowing", correct: false},
-         {text: "Sun Conure", correct: false},
+         {text: 'African Grey', correct: true},
+         {text: 'Cockatiel', correct: false},
+         {text: 'Burrowing', correct: false},
+         {text: 'Sun Conure', correct: false},
       ],
-      fact: "According to the Guiness World Record, the oldest African Grey lived to 72 years old!",
    },
    {
-      question: 'assets/images/main-img/scarlet.jpg',
+      question: "assets/images/main-img/scarlet.jpg",
       answers: [
-         {text: "Meyer's", correct: false},
-         {text: "Scarlet Macaw", correct: true},
-         {text: "Hyacinth Macaw", correct: false},
-         {text: "Yellow-Naped Amazon", correct: false},
+         {text: 'Meyers', correct: false},
+         {text: 'Scarlet Macaw', correct: true},
+         {text: 'Hyacinth Macaw', correct: false},
+         {text: 'Yellow-Naped Amazon', correct: false},
       ],
-      fact: "The Scarlet Macaw is the national bird of Honduras!",
    },
    {
-      question: 'assets/images/main-img/eclectus.jpg',
+      question: "assets/images/main-img/eclectus.jpg",
       answers: [
-         {text: "Senegal", correct: false},
-         {text: "Indian Ringneck", correct: false},
-         {text: "Eclectus", correct: true},
-         {text: "Kakariki", correct: false},
+         {text: 'Senegal', correct: false},
+         {text: 'Indian Ringneck', correct: false},
+         {text: 'Eclectus', correct: true},
+         {text: 'Kakariki', correct: false},
 
       ],
-      fact: "Male Eclectus parrots are green, females are Red!",
    },
    {
-      question: 'assets/images/main-img/cockatiel.jpg',
+      question: "assets/images/main-img/cockatiel.jpg",
       answers: [
-         {text: "Senegal", correct: false},
-         {text: "Cockatiel", correct: true},
-         {text: "Hyacinth Macaw", correct: false},
-         {text: "Sun Conure", correct: false},
+         {text: 'Senegal', correct: false},
+         {text: 'Cockatiel', correct: true},
+         {text: 'Hyacinth Macaw', correct: false},
+         {text: 'Sun Conure', correct: false},
       ],
-      fact: "Cocktiels are better at whistling than they are at talking!",
    },
    {
-      question: 'assets/images/main-img/amazon.jpg',
+      question: "assets/images/main-img/amazon.jpg",
       answers: [
-         {text: "Sun Conure", correct: false},
-         {text: "Kakariki", correct: false},
-         {text: "Green Cheek Conure", correct: false},
-         {text: "Yellow-Naped Amazon", correct: true},
+         {text: 'Sun Conure', correct: false},
+         {text: 'Kakariki', correct: false},
+         {text: 'Green Cheek Conure', correct: false},
+         {text: 'Yellow-Naped Amazon', correct: true},
       ],
-      fact: "Yellow-Naped Amazon parrots can live for over 50 years when cared for by humans!",
    },
    {
-      question: 'assets/images/main-img/pionus.jpg',
+      question: "assets/images/main-img/pionus.jpg",
       answers: [
-         {text: "Caique", correct: false},
-         {text: "African Grey", correct: false},
-         {text: "Pionus", correct: true},
-         {text: "Cockatiel", correct: false},
+         {text: 'Caique', correct: false},
+         {text: 'African Grey', correct: false},
+         {text: 'Pionus', correct: true},
+         {text: 'Cockatiel', correct: false},
       ],
-      fact: "All Pionus parrots have red feathers at the vent (underneath their tails)!",
    },
    {
-      question: 'assets/images/main-img/hyacinth.jpg',
+      question: "assets/images/main-img/hyacinth.jpg",
       answers: [
-         {text: "Yellow-Naped Amazon", correct: false},
-         {text: "Quaker", correct: false},
-         {text: "Kakariki", correct: false},
-         {text: "Hyacinth Macaw", correct: true},
+         {text: 'Yellow-Naped Amazon', correct: false},
+         {text: 'Quaker', correct: false},
+         {text: 'Kakariki', correct: false},
+         {text: 'Hyacinth Macaw', correct: true},
       ],
-      fact: "A Hyacinth Macaw's beak is strong enough to crack open coconuts!",
    },
    {
-      question: 'assets/images/main-img/gcc.jpg',
+      question: "assets/images/main-img/gcc.jpg",
       answers: [
-         {text: "Galah Cockatoo", correct: false},
-         {text: "Green Cheek Conure", correct: true},
-         {text: "Lovebird", correct: false},
-         {text: "Goffin's Cockatoo", correct: false},
+         {text: 'Galah Cockatoo', correct: false},
+         {text: 'Green Cheek Conure', correct: true},
+         {text: 'Lovebird', correct: false},
+         {text: 'Goffins Cockatoo', correct: false},
       ],
-      fact: "Green Cheek Conures love hanging upside down, theyre the clowns of the conure family!",
    },
    {
-      question: 'assets/images/main-img/caique.jpg',
+      question: "assets/images/main-img/caique.jpg",
       answers: [
-         {text: "Caique", correct: true},
-         {text: "Cockatiel", correct: false},
-         {text: "Eclectus", correct: false},
-         {text: "Lorikeet", correct: false},
+         {text: 'Caique', correct: true},
+         {text: 'Cockatiel', correct: false},
+         {text: 'Eclectus', correct: false},
+         {text: 'Lorikeet', correct: false},
       ],
-      fact: "Caiques have a 'dominant foot', they can be right-footed or left-footed.",
    },
    {
-      question: 'assets/images/main-img/irn.jpg',
+      question: "assets/images/main-img/irn.jpg",
       answers: [
-         {text: "African Grey", correct: false},
-         {text: "Lovebird", correct: false},
-         {text: "Lorikeet", correct: false},
-         {text: "Indian Ringneck", correct: true},
+         {text: 'African Grey', correct: false},
+         {text: 'Lovebird', correct: false},
+         {text: 'Lorikeet', correct: false},
+         {text: 'Indian Ringneck', correct: true},
       ],
-      fact: "Indian Ringnecks can learn up to 200 words, they love learning new things!",
    },
 ]
 
@@ -143,7 +133,7 @@ function userAnswer(event) {
 
 // Checks answer and triggers correctAnswer() or wrongAnswer()
 function checkAnswer(event) {
-   const selectedAnswer = currentQuestion.answers.find(answer => answer.text === event.target.textContent);
+   const selectedAnswer = currentQuestion.answers.find((answer) => answer.text === event.target.textContent);
    
    if (selectedAnswer && selectedAnswer.correct) {
       console.log('Correct');

@@ -130,10 +130,10 @@ I used royalty free images of parrots from google images.
     2. Adding if/else statements to checkAnswer() function so that if the button is disabled it cancels the calling of the function.
     3. **Solution**: Removed the event listener and the generated 'next' button and added onclick targets to each button within the html. With this fix I have had to sacrifice the fun fact and the correct/incorrect answer message.
 
-- **JavaScript Pre-Testing
-* On page load, generate new question
-* On 'check answer', +1 to score and display message
-* On 'next question', generate new question
+- **JavaScript Testing
+* I ran both quiz.js and score.js through JS Lint to test them for errors and issues. While there were some warnings related to the use of single and double quotes there were no major issues.
+ ![JS Lint Testing](assets/images/readme-img/jslint.png)
+ ![JS Lint Testing](assets/images/readme-img/jslint-warnings.png)
 
 ## User Story
 1. Easily find the location of the festival
