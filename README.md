@@ -18,7 +18,7 @@
 * [Deployment](#deployment)
 * [Credits and Acknowledgments](#credits-and-acknowledgements)
 
-![Website Mockup]()
+![Website Mockup](assets/images/readme-img/mockup.png)
 
 ## Website Information
 Business goals: 
