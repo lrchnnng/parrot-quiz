@@ -111,7 +111,7 @@ I used royalty free images of parrots from google images.
 ---
 
 ## Testing
-[Click to view testing documentation](https://github.com/lrchnnng/parrot-quiz/blob/main/testing.md)
+[Click to view testing documentation](testing.md)
 
 ## User Story
 1. Easily find the location of the festival
