@@ -18,18 +18,19 @@ main {
     .header {
         margin-bottom: 20px;
         text-align: center;
-        font-weight: 500px;
+        font-weight: 500;
     }
 
     /* Nav bar */
     .navbar-brand {
         font-size: 16px !important;
-        .colour1 {
-            color: var(--red);
-        }
-        .colour2 {
-            color: var(--blue);
-        }
+    }
+
+    .colour1 {
+        color: var(--red);
+    }
+    .colour2 {
+        color: var(--blue);
     }
     
     .nav-link {
@@ -58,11 +59,12 @@ main {
     /* Buttons */
     .buttons {
         margin: 10px 0 20px 0;
-        a {
+    }
+
+    a {
         padding: 10px;
         font-weight: bold;
         }
-    }
 
     /* How To */
     .how-to {
@@ -149,16 +151,19 @@ main {
         text-align: center;
         font-size: 12px;
         padding: 10px 0;
-        .footer-link {
-            text-decoration: none;
-            color: var(--red) !important;
-        }
-        hr {
-            border: dashed 2px var(--blue) !important;
-        }
-        .footer-link:hover {
-            color: var(--blue);
-        }
+    }
+    
+    .footer-link {
+        text-decoration: none;
+        color: var(--red) !important;
+    }
+    
+    .footer-link:hover {
+        color: var(--blue);
+    }
+
+    hr {
+        border: dashed 2px var(--blue) !important;
     }
 }
 
