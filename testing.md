@@ -1,7 +1,7 @@
 [Return to README](https://github.com/lrchnnng/parrot-quiz/blob/main/README.md)
 
 # Testing
-- [Lighthouse]{##lighthouse}
+- [Lighthouse]{##Lighthouse}
 - [HTML and CSS](##html-and-css-validation)
     - [HTML Validation](###html-validation)
     - [CSS Validation](###css-validation)
@@ -11,17 +11,16 @@
 
 ## Lighthouse
   ![Lighthouse testing]()
-  * 
 
 ## HTML and CSS Validation
   ### HTML
-    ![HTML Validation](assets/images/readme-img/html-validation.png)
-    - All of the HTML pages passed the W3C HTML Validator apart from quiz.html.
-    ![HTML Validation](assets/images/readme-img/html-error.png)
-    - This error has appeared due to me leaving the img element source blank which is replaced within my quiz.js file. I fixed both of these issues by using a '#' as the source and creating a general, none specific alt text attribute (in this case it will always be a picture of a parrot). 
-  ### CSS
-    ![CSS Validation](assets/images/readme-img/html-validation.png)
-    - All pages passed the W3C CSS Validation.
+![HTML Validation](assets/images/readme-img/html-validation.png)
+- All of the HTML pages passed the W3C HTML Validator apart from quiz.html.
+![HTML Validation](assets/images/readme-img/html-error.png)
+- This error has appeared due to me leaving the img element source blank which is replaced within my quiz.js file. I fixed both of these issues by using a '#' as the source and creating a general, none specific alt text attribute (in this case it will always be a picture of a parrot). 
+### CSS
+![CSS Validation](assets/images/readme-img/html-validation.png)
+- All pages passed the W3C CSS Validation.
     
 ## JavaScript Testing
 * I ran both quiz.js and score.js through JS Lint to test them for errors and issues. While there were some warnings related to the use of single and double quotes there were no major issues.
