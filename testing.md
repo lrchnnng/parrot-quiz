@@ -11,7 +11,7 @@
 
 ## Lighthouse
   ![Index Lighthouse testing]()
-  ![How To Lighthouse testing]()
+  ![How To Lighthouse testing](assets/images/readme-img/how-to-lighthouse.png)
   ![Quiz Lighthouse testing]()
   ![Score Lighthouse testing]()
 
