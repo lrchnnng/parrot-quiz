@@ -89,7 +89,8 @@ I opted to use 'Montserrat' across the entire site as it is a simple and easy to
 ![google fonts](assets/images/readme-img/google-font.png)
 
 #### Colours
-![google fonts](assets/images/readme-img/google-font.png)
+![google fonts](assets/images/readme-img/quiz-colours.png)
+I chose to use a simple primary colour palette to keep the pages looking clean and easy to read.
 
 #### Photography
 
