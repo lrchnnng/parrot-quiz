@@ -28,9 +28,6 @@ main {
             color: var(--red);
         }
         .colour2 {
-            color: var(--gold);
-        }
-        .colour3 {
             color: var(--blue);
         }
     }
@@ -158,6 +155,9 @@ main {
         }
         hr {
             border: dashed 2px var(--blue) !important;
+        }
+        .footer-link:hover {
+            color: var(--blue);
         }
     }
 }
