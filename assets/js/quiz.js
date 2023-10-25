@@ -1,7 +1,6 @@
 // When the document loads a question is generated immediately
 $(document).ready(function() {
    showQuestion();
-   console.log("ready!");
 });
 
 // An array of objects containing quiz images and answers
@@ -121,9 +120,8 @@ function showQuestion() {
        $('#option3').text(currentQuestion.answers[2].text);
        $('#option4').text(currentQuestion.answers[3].text);
    } else {
-       console.log('end of quiz');
 
-       // Navigate to the score page and stores user score within the url
+      // Navigate to the score page and stores user score within the url
        window.location.href = `score.html?score=${score}`;
    }
 }
@@ -140,20 +138,15 @@ function checkAnswer(event) {
    const selectedAnswer = currentQuestion.answers.find((answer) => answer.text === event.target.textContent);
    
    if (selectedAnswer && selectedAnswer.correct) {
-      console.log('Correct');
       correctAnswer();
-   } else {
-      console.log('Wrong')
    }
 }
 
 // Logs user score
 let score = 0;
-console.log(score)
 
 // Ff correct = score + 1
 function correctAnswer() {
    score = score + 1;
-   console.log(score);
    $('#q-score').text(score);
 }

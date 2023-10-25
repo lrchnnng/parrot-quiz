@@ -158,3 +158,4 @@ Once this is complete you should be able to view the webpage online, this is upd
   * Used to create user flows and wireframes.
 - [ui.dev](https://ui.dev/amiresponsive)
   * Used to create a mockup of web page on various screen sizes.
+- [URLSearchParams](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams)
