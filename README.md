@@ -1,7 +1,10 @@
 <div align="center">
+
 # Parrots Parrots Parrots!
 [Link to website](https://lrchnnng.github.io/parrot-quiz/)
+
 ![Website Mockup](assets/images/readme-img/mockup.png)
+
 </div>
 
 ## Table of contents
