@@ -29,6 +29,7 @@
     - [Languages](#languages)
     - [Libraries](#libraries)
     - [Design](#design)
+    - [Other](#other)
   - [Testing](#testing)
   - [User Story](#user-story)
   - [Deployment](#deployment)
@@ -160,6 +161,10 @@ I used royalty free images of parrots from google images.
 [Figma](): Used to create userflow and wireframes.
 
 [Affinity Designer](): Used to create colour palette and resize images.
+
+### Other
+[Font-size Clamp Generator](https://clamp.font-size.app/?config=eyJyb290IjoiMTYiLCJtaW5XaWR0aCI6IjMyMHB4IiwibWF4V2lkdGgiOiIxMDI0cHgiLCJtaW5Gb250U2l6ZSI6IjI0cHgiLCJtYXhGb250U2l6ZSI6IjYwcHgifQ%3D%3D): Used to create responsive text sizes.
+
 
 ---
 

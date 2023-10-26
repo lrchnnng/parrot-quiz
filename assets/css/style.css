@@ -16,14 +16,15 @@ main {
 @media screen and (min-width: 260px) {    
     /* General Styling */
     .header {
-        margin-bottom: 20px;
+        font-size: clamp(1.5rem, 0.4773rem + 5.1136vw, 3.75rem);
         text-align: center;
-        font-weight: 500;
+        font-weight: 600;
+        padding-bottom: 10px;
     }
 
     /* Nav bar */
     .navbar-brand {
-        font-size: 16px !important;
+        font-size: clamp(0.875rem, 0.7614rem + 0.5682vw, 1.125rem) !important;
         font-weight: 400;
     }
 
@@ -36,6 +37,7 @@ main {
     
     .nav-link {
         color: var(--blue) !important;
+        font-size: clamp(0.875rem, 0.7614rem + 0.5682vw, 1.125rem) !important;
     }
     
     .active {
@@ -45,10 +47,10 @@ main {
     /* Index */
     .index-title {
         color: var(--red);
+        font-size: clamp(1.5rem, 0.4773rem + 5.1136vw, 3.75rem);
         text-align: center;
+        font-weight: 600;
         padding-bottom: 10px;
-        font-size: 30px;
-        font-weight: 500;
     }
 
     .title-img {
@@ -65,8 +67,9 @@ main {
 
     a {
         padding: 10px;
-        font-weight: bold;
-        }
+        font-weight: 500;
+        font-size: clamp(1rem, 0.8864rem + 0.5682vw, 1.25rem) !important;
+    }
 
     /* How To */
     .how-to {
@@ -75,7 +78,7 @@ main {
         padding: 20px;
         border-radius: 10px;
         margin-bottom: 20px;
-        font-size: 14px;
+        font-size: clamp(0.875rem, 0.7045rem + 0.8523vw, 1.25rem);
     }
 
     /* Quiz */
@@ -95,19 +98,13 @@ main {
     .quiz-score {
         text-align: center;
         color: #ffffff;
-        font-size: 16px;
+        font-size: clamp(1.125rem, 0.7841rem + 1.7045vw, 1.875rem);
         display: block;
         margin: 0 auto;
     }
 
-    .message {
-        text-align: center;
-        color: #ffffff;
-        font-size: 22px;
-    }
-
-    .image-cont {
-        margin-bottom: 20px;
+    .image-container {
+        margin: 20px 0;
     }
 
     .quiz-img {
@@ -117,8 +114,8 @@ main {
         margin: 0 auto;
     }
 
-    #q-a {
-        padding: 10px 0;
+    #quiz-container {
+        padding: 10px;
     }
 
     .q-foot {
@@ -170,32 +167,13 @@ main {
 }
 
 /* Tablet Styling*/
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {    
     main {
         padding: 20px 30px;
     }
 
-    /* Nav Bar */
-    nav {
-        font-size: 16px;
-    }
-
-    .nav-link {
-        margin-left: 20px;
-    }
-    
-    /* Index */
-    .index-title {
-        color: var(--red);
-        text-align: center;
-        padding-bottom: 10px;
-        font-size: 30px;
-        font-weight: 500;
-    }
-
     .how-to {
         padding: 20px;
-        font-size: 18px;
     }
 }
 
@@ -205,17 +183,9 @@ main {
         padding: 40px 60px;
     }
 
-    /* Nav Bar*/
-    nav {
-        font-size: 18px;
-    }
-
     /* How To */
     .how-to {
         padding: 30px;
-        border-radius: 10px;
-        margin-bottom: 20px;
-        font-size: 20px;
     }
 
     /* Footer */
