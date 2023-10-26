@@ -13,6 +13,7 @@
 ## Manual Testing
 | | Mobile S (320px)| Mobile M (375px) | Mobile L (425px)| Tablet (768px) | Desktop (1024px)|
 |---|---|---|---|---|---|
+|
 
 ## Lighthouse
 - ![Index Lighthouse testing]()
