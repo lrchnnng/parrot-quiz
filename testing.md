@@ -10,10 +10,10 @@
 
 
 ## Lighthouse
-  ![Index Lighthouse testing]()
-  ![How To Lighthouse testing](assets/images/readme-img/how-to-lighthouse.png)
-  ![Quiz Lighthouse testing]()
-  ![Score Lighthouse testing]()
+- ![Index Lighthouse testing]()
+- ![How To Lighthouse testing](assets/images/readme-img/how-to-lighthouse.png)
+- ![Quiz Lighthouse testing]()
+- ![Score Lighthouse testing](assets/images/readme-img/score-lighthouse.png)
 
 ## HTML and CSS Validation
   ### HTML
