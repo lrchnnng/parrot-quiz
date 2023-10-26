@@ -3,6 +3,8 @@
 # Parrots Parrots Parrots!
 [Link to website](https://lrchnnng.github.io/parrot-quiz/)
 
+<br>
+
 ![Website Mockup](assets/images/readme-img/mockup.png)
 
 </div>
@@ -24,13 +26,14 @@
       - [Colours](#colours)
       - [Photography](#photography)
   - [Technologies Used](#technologies-used)
+    - [Languages](#languages)
+    - [Libraries](#libraries)
+    - [Design](#design)
   - [Testing](#testing)
   - [User Story](#user-story)
   - [Deployment](#deployment)
     - [GitHub pages deployment](#github-pages-deployment)
   - [Credits and Acknowledgments](#credits-and-acknowledgments)
-
-![Website Mockup](assets/images/readme-img/mockup.png)
 
 ## Website Information
 Business goals: 
@@ -45,8 +48,11 @@ Business goals:
 4. Scores
 
 ---
+<div align="center">
 
 ## UX 
+
+</div>
 Whilst designing and creating this website I have taken into account the five planes of UX design, strategy, scope, structure, skeleton and surface.
 
 ### Strategy
@@ -80,28 +86,38 @@ A page that takes the score from the quiz and displays the final user score once
 ### Structure
 I created a userflow diagram to show how the user will interact with each page on the site.
 While I had originally planned for the user to lose a point when they answered the question incorrectly, I chose to change this to make it a more fun experience to a younger audience.
+
 ![Userflow](assets/images/readme-img/user-flow.png)
 
 ### Skeleton
 The **skeleton** plane of UX design is a more visual representation of the flow in which a user might use the website. Using wireframes to show a basic design layout 
 removes colour, Typography, imagery to create a basic view of website and layout
 
+<div align="center">
+
 **Mobile Wireframes**
+
 ![Mobile Wireframes](assets/images/readme-img/mobile-wireframes.png)
+
 **Tablet and Desktop Wireframes**
+
 ![Tablet and Desktop Wireframes](assets/images/readme-img/tablet-wireframes.png)
+
+</div>
 
 These wireframes are a simplified version of what I planned for the site. Some areas may have changed between the wireframes and the final product.
 
-### Surface
 
+### Surface
 
 #### Typography
 I opted to use 'Montserrat' across the entire site as it is a simple and easy to read font that has a number of different style options that can be utilised in different areas.
+
 ![google fonts](assets/images/readme-img/google-font.png)
 
 #### Colours
 I chose to use a simple primary colour palette to keep the pages looking clean and easy to read.
+
 ![google fonts](assets/images/readme-img/quiz-colours.png)
 
 #### Photography
@@ -109,17 +125,42 @@ I used royalty free images of parrots from google images.
 
 ---
 
+<div align="center">
+
 ## Technologies Used
-- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-  * Used to create the basic structure and meaning of the webpage
-- [CSS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
-  * Used to style the content within the webpage
-- [Bootstrap](https://getbootstrap.com/)
-  * Bootstrap was used to create a fully responsive navbar
-- [JavaScript](https://www.javascript.com/)
-  * Used with Bootstrap in order to create a responsive drop down nav bar on mobile and tablet devices
-- [Google Fonts](https://fonts.google.com/)
-  * Used to add in specific fonts to the webpage
+
+</div>
+
+### Languages
+![HTML5](https://img.shields.io/badge/html5-orange.svg?style=for-the-badge&logo=html5&logoColor=orange&color=172416&Color=orange) 
+![CSS3](https://img.shields.io/badge/css3-blue.svg?style=for-the-badge&logo=css3&logoColor=blue&color=172416&Color=blue) 
+![JavaScript](https://img.shields.io/badge/javascript-yellow.svg?style=for-the-badge&logo=javascript&logoColor=yellow&color=172416&Color=yellow) 
+
+[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML): Used to create the basic structure of the webpage.
+
+[CSS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics): Used to style the content within the webpage.
+
+[JavaScript](https://www.javascript.com/): Used with Bootstrap in order to create a responsive drop down nav bar on mobile and tablet devices and to create interactivitiy within the quiz.
+
+
+### Libraries
+![Bootstrap 5](https://img.shields.io/badge/bootstrap5-purple.svg?style=for-the-badge&logo=bootstrap&logoColor=lightpurple&color=172416&Color=pink)
+![jQuery](https://img.shields.io/badge/jquery-blue.svg?style=for-the-badge&logo=jquery&logoColor=blue&color=172416&Color=blue)
+
+[Bootstrap](https://getbootstrap.com/): Used to create fully responsive navbar, buttons and images.
+
+[jQuery](https://jquery.com/): Used to simplify and streamline JS code.
+
+### Design
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+![Affinity Designer](https://img.shields.io/badge/affinity%20desginer-%231B72BE.svg?style=for-the-badge&logo=affinity-designer&logoColor=white)
+
+[Google Fonts](https://fonts.google.com/): Used to add in specific fonts to the webpage.
+
+[Figma](): Used to create userflow and wireframes.
+
+[Affinity Designer](): Used to create colour palette and resize images.
+
 ---
 
 ## Testing
