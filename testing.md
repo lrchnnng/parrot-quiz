@@ -1,5 +1,4 @@
 [Return to README](https://github.com/lrchnnng/parrot-quiz/blob/main/README.md)
-
 # Testing
 - [Testing](#testing)
   - [Manual Testing](#manual-testing)
@@ -14,7 +13,6 @@
 | | Mobile S (320px)| Mobile M (375px) | Mobile L (425px)| Tablet (768px) | Desktop (1024px)|
 |---|---|---|---|---|---|
 |
-
 ## Lighthouse
 - ![Index Lighthouse testing]()
 - ![How To Lighthouse testing](assets/images/readme-img/how-to-lighthouse.png)
