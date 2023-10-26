@@ -1,13 +1,18 @@
 [Return to README](https://github.com/lrchnnng/parrot-quiz/blob/main/README.md)
 
 # Testing
-- [Lighthouse](##lighthouse)
-- [HTML and CSS](##html-and-css-validation)
-    - [HTML Validation](###html-validation)
-    - [CSS Validation](###css-validation)
-- [JavaScript Testing](##javascript-testing)
-- [Known Bugs and Fixes](##known-bugs-and-fixes)
+- [Testing](#testing)
+  - [Manual Testing](#manual-testing)
+  - [Lighthouse](#lighthouse)
+  - [HTML and CSS Validation](#html-and-css-validation)
+    - [HTML](#html)
+    - [CSS](#css)
+  - [JavaScript Testing](#javascript-testing)
+  - [Known bugs and fixes](#known-bugs-and-fixes)
 
+## Manual Testing
+| | Mobile S (320px)| Mobile M (375px) | Mobile L (425px)| Tablet (768px) | Desktop (1024px)|
+|---|---|---|---|---|---|
 
 ## Lighthouse
 - ![Index Lighthouse testing]()
