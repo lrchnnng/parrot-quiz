@@ -47,13 +47,14 @@
 | Page | Test Results | Possible Improvements |
 |:---:|---|---|
 |Index|||
-|How To|||
+|How To|![How To Lighthouse testing](assets/images/readme-img/how-to-lighthouse.png)
+||
 |Quiz|||
-|Final Score|||
+|Final Score|![Score Lighthouse testing](assets/images/readme-img/score-lighthouse.png)
+||
 
-- ![How To Lighthouse testing](assets/images/readme-img/how-to-lighthouse.png)
-- ![Quiz Lighthouse testing]()
-- ![Score Lighthouse testing](assets/images/readme-img/score-lighthouse.png)
+![Index Lighthouse testing]()
+![Quiz Lighthouse testing]()
 
 ### HTML and CSS Validation <!-- omit in toc -->
 ### HTML <!-- omit in toc -->
