@@ -94,17 +94,21 @@ While I had originally planned for the user to lose a point when they answered t
 The **skeleton** plane of UX design is a more visual representation of the flow in which a user might use the website. Using wireframes to show a basic design layout 
 removes colour, Typography, imagery to create a basic view of website and layout
 
-<div align="center">
-
 **Mobile Wireframes**
+
+<details><summary>Click here for desktop wireframes</summary>
 
 ![Mobile Wireframes](assets/images/readme-img/mobile-wireframes.png)
 
+</details>
+
 **Tablet and Desktop Wireframes**
+
+<details><summary>Click here for desktop wireframes</summary>
 
 ![Tablet and Desktop Wireframes](assets/images/readme-img/tablet-wireframes.png)
 
-</div>
+</details>
 
 These wireframes are a simplified version of what I planned for the site. Some areas may have changed between the wireframes and the final product.
 
