@@ -2,10 +2,9 @@
 
 # Parrots Parrots Parrots! <!-- omit in toc -->
 
-![Static Badge](https://img.shields.io/badge/Testing_page-blue?link=https%3A%2F%2Fgithub.com%2Flrchnnng%2Fparrot-quiz%2Fblob%2Fmain%2Ftesting.md)
+[Testing Documentation](https://github.com/lrchnnng/parrot-quiz/blob/main/testing.md)
 
-
-[Link to website](https://lrchnnng.github.io/parrot-quiz/)
+[Live Site](https://lrchnnng.github.io/parrot-quiz/)
 
 <br>
 

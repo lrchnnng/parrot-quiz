@@ -1,16 +1,25 @@
-![Static Badge](https://img.shields.io/badge/Return_to_README-blue?style=flat-plastic&link=https%3A%2F%2Fgithub.com%2Flrchnnng%2Fparrot-quiz%2Fblob%2Fmain%2FREADME.md)
+[Return to README](https://github.com/lrchnnng/parrot-quiz/blob/main/README.md)
 
+---
 # Testing <!-- omit in toc -->
 - [Manual Testing](#manual-testing)
 - [Automated Testing](#automated-testing)
 - [Known bugs and fixes](#known-bugs-and-fixes)
 
+---
+
+<div align="center">
+
 ## Manual Testing
+
+</div>
+
 | | Mobile S (320px)| Mobile L (425px)| Tablet (768px) | Desktop (1024px)|
 |---|:---:|:---:|:---:|:---:|
 |Responsive Images|✓|✓|✓|✓|
 |Responsive Elements|✓|✓|✓|✓|
 |Responsive Text|✓|✓|✓|✓|
+|Responsive Nav Bar|✓|✓|✓|✓|
 
 |Quiz Testing|Yes/No|
 |---|:---:|
@@ -25,7 +34,13 @@
 ||✓|
 ||✓|
 
+---
+
+<div align="center">
+
 ## Automated Testing
+
+</div>
 
  ### Lighthouse <!-- omit in toc -->
 
