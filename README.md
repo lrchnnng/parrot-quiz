@@ -2,6 +2,9 @@
 
 # Parrots Parrots Parrots! <!-- omit in toc -->
 
+![Static Badge](https://img.shields.io/badge/Testing_page-blue?link=https%3A%2F%2Fgithub.com%2Flrchnnng%2Fparrot-quiz%2Fblob%2Fmain%2Ftesting.md)
+
+
 [Link to website](https://lrchnnng.github.io/parrot-quiz/)
 
 <br>
@@ -108,6 +111,9 @@ These wireframes are a simplified version of what I planned for the site. Some a
 
 ### 2.5 Surface
 
+| Typography | Image | Description |
+|--- |---|---|
+
 #### Typography <!-- omit in toc -->
 I opted to use 'Montserrat' across the entire site as it is a simple and easy to read font that has a number of different style options that can be utilised in different areas.
 
@@ -130,9 +136,9 @@ I used royalty free images of parrots from google images.
 </div>
 
 ### Languages <!-- omit in toc -->
-![HTML5](https://img.shields.io/badge/html5-orange.svg?style=for-the-badge&logo=html5&logoColor=orange&color=172416&Color=orange) 
-![CSS3](https://img.shields.io/badge/css3-blue.svg?style=for-the-badge&logo=css3&logoColor=blue&color=172416&Color=blue) 
-![JavaScript](https://img.shields.io/badge/javascript-yellow.svg?style=for-the-badge&logo=javascript&logoColor=yellow&color=172416&Color=yellow) 
+![Static Badge](https://img.shields.io/badge/HTML-white?style=flat-plastic&logo=HTML5&logoColor=black)
+![Static Badge](https://img.shields.io/badge/CSS3-white?style=flat-plastic&logo=CSS3&logoColor=black)
+![Static Badge](https://img.shields.io/badge/JavaScript-white?style=flat-plastic&logo=JavaScript&logoColor=black)
 
 [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML): Used to create the basic structure of the webpage.
 
@@ -142,16 +148,17 @@ I used royalty free images of parrots from google images.
 
 
 ### Libraries <!-- omit in toc -->
-![Bootstrap 5](https://img.shields.io/badge/bootstrap5-purple.svg?style=for-the-badge&logo=bootstrap&logoColor=lightpurple&color=172416&Color=pink)
-![jQuery](https://img.shields.io/badge/jquery-blue.svg?style=for-the-badge&logo=jquery&logoColor=blue&color=172416&Color=blue)
+![Static Badge](https://img.shields.io/badge/Bootstrap-white?style=flat-plastic&logo=Bootstrap&logoColor=black)
+![Static Badge](https://img.shields.io/badge/jQuery-white?style=flat-plastic&logo=jquery&logoColor=black)
 
 [Bootstrap](https://getbootstrap.com/): Used to create fully responsive navbar, buttons and images.
 
 [jQuery](https://jquery.com/): Used to simplify and streamline JS code.
 
 ### Design <!-- omit in toc -->
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
-![Affinity Designer](https://img.shields.io/badge/affinity%20desginer-%231B72BE.svg?style=for-the-badge&logo=affinity-designer&logoColor=white)
+![Static Badge](https://img.shields.io/badge/Google_Fonts-white?style=flat-plastic&logo=google&logoColor=black)
+![Static Badge](https://img.shields.io/badge/Figma-white?style=flat-plastic&logo=figma&logoColor=black)
+![Static Badge](https://img.shields.io/badge/Affinity_Designer-white?style=flat-plastic&logo=affinity&logoColor=black)
 
 [Google Fonts](https://fonts.google.com/): Used to add in specific fonts to the webpage.
 

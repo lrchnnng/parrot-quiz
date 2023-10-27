@@ -1,4 +1,5 @@
-[Return to README](https://github.com/lrchnnng/parrot-quiz/blob/main/README.md)
+![Static Badge](https://img.shields.io/badge/Return_to_README-blue?style=flat-plastic&link=https%3A%2F%2Fgithub.com%2Flrchnnng%2Fparrot-quiz%2Fblob%2Fmain%2FREADME.md)
+
 # Testing
 - [Testing](#testing)
   - [Manual Testing](#manual-testing)
