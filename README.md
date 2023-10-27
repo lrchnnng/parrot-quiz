@@ -93,7 +93,8 @@ removes colour, Typography, imagery to create a basic view of website and layout
 | Mobile Wireframes | Desktop Wireframes |
 |:---:|:---:|
 |![Mobile Wireframes](assets/images/readme-img/mobile-wireframes.png)|![Tablet and Desktop Wireframes](assets/images/readme-img/tablet-wireframes.png)|
-These wireframes are a simplified version of what I planned for the site. Some areas may have changed between the wireframes and the final product.
+
+These wireframes are a simplified version of what I planned for the site. Some areas have changed between the wireframes and the final product, this is either due to making the page easier to navigate or an added function later in development.
 
 
 ### 2.5 Surface
