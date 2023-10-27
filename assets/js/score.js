@@ -29,3 +29,7 @@ function finalScoreMessage(){
       scoreMessage.innerHTML = '<i class="fas fa-trophy score-icon"></i><p>TOP MARKS!</p>';
    }
 }
+
+function funFactGenerator() {
+   
+}

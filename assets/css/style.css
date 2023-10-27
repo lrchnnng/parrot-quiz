@@ -139,6 +139,10 @@ main {
         font-size: 40px;
     }
 
+    #score-message, #fun-fact {
+        font-size: clamp(1.125rem, 0.8977rem + 1.1364vw, 1.625rem);
+    }
+
     /* Footer */
     footer {
         text-align: center;
