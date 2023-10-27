@@ -115,7 +115,7 @@ These wireframes are a simplified version of what I planned for the site. Some a
 |---|---|---|
 |Typography|![google fonts](assets/images/readme-img/google-font.png)| I opted to use 'Montserrat' across the entire site as it is a simple and easy to read font that has a number of different style options that can be utilised in different areas. |
 |Colours|![Colour Palette](assets/images/readme-img/quiz-colours.png)|I chose to use a simple primary colour palette to keep the pages looking clean and easy to read.|
-|Photography||I used royalty free images of parrots from google images.|
+|Photography|![Sample image of a parrot](assets/images/main-img/irn.png)|I used royalty free images of parrots from google images.|
 
 ---
 
