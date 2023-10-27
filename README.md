@@ -90,29 +90,16 @@ While I had originally planned for the user to lose a point when they answered t
 The **skeleton** plane of UX design is a more visual representation of the flow in which a user might use the website. Using wireframes to show a basic design layout 
 removes colour, Typography, imagery to create a basic view of website and layout
 
-**Mobile Wireframes**
-
-<details><summary>Click here for desktop wireframes</summary>
-
-![Mobile Wireframes](assets/images/readme-img/mobile-wireframes.png)
-
-</details>
-
-**Tablet and Desktop Wireframes**
-
-<details><summary>Click here for desktop wireframes</summary>
-
-![Tablet and Desktop Wireframes](assets/images/readme-img/tablet-wireframes.png)
-
-</details>
-
+| Mobile Wireframes | Desktop Wireframes |
+|:---:|:---:|
+|![Mobile Wireframes](assets/images/readme-img/mobile-wireframes.png)|![Tablet and Desktop Wireframes](assets/images/readme-img/tablet-wireframes.png)|
 These wireframes are a simplified version of what I planned for the site. Some areas may have changed between the wireframes and the final product.
 
 
 ### 2.5 Surface
 
 | Type | Image | Description|
-|---|---|---|
+|:---:|---|---|
 |Typography|![google fonts](assets/images/readme-img/google-font.png)| I opted to use 'Montserrat' across the entire site as it is a simple and easy to read font that has a number of different style options that can be utilised in different areas. |
 |Colours|![Colour Palette](assets/images/readme-img/quiz-colours.png)|I chose to use a simple primary colour palette to keep the pages looking clean and easy to read.|
 |Photography|![Sample image of a parrot](assets/images/main-img/irn.jpg)|I used royalty free images of parrots from google images.|
