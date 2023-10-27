@@ -5,14 +5,16 @@ const urlParams = new URLSearchParams(window.location.search);
 const finalScoreStr = urlParams.get('score');
 const finalScore = parseInt(finalScoreStr);
 
-// When document has loaded the final score message is generated
+// When document has loaded the final score message and a random fun fact is generated
 $(document).ready(function(finalScore) {
     finalScoreMessage();
+    funFactGenerator();
  });
 
 // Accesses elements in the DOM 
 const scoreMessage = document.getElementById('score-message');
 const finalScoreValue = document.getElementById('f-score');
+const funFact = document.getElementById('fun-fact');
 
 // Generates a message depending on user score
 function finalScoreMessage(){
@@ -30,6 +32,31 @@ function finalScoreMessage(){
    }
 }
 
+// An array of fun facts
+const funFactArray = ["According to the Guiness World Record, the oldest African Grey lived to 72 years old!",
+   "The Scarlet Macaw is the national bird of Honduras!",
+   "Male Eclectus parrots are green, females are Red!",
+   "Cocktiels are better at whistling than they are at talking!",
+   "Yellow-Naped Amazon parrots can live for over 50 years when cared for by humans!", 
+   "All Pionus parrots have red feathers at the vent (underneath their tails)!",
+   "A Hyacinth Macaw's beak is strong enough to crack open coconuts!",
+   "Green Cheek Conures love hanging upside down, theyre the clowns of the conure family!",
+   "Caiques have a 'dominant foot', they can be right-footed or left-footed.",
+   "Indian Ringnecks can learn up to 200 words, they love learning new things!",
+   "Quakers are the only parrots that build communal nests, which can house up to 50 birds!",
+   "Lovebirds mate for life (living up to their name)!",
+   "Lorikeets have special brush-like tongues used to eat the nectar from flowers!",
+   "The word 'Galah' is a slang term in the native Australian language. It means fool or a loud-mouthed fool!",
+   "Senegal parrots can mimic sounds of their surrounding; some of them may include the creak of a door or ring of the telephone!",
+   "When in the wild, Burrowing parrots live in colonies on the cliffs, many colonies are seen in Rio Negro, Patagonia!",
+   "Meyer's parrots are quite gentle, quiet, funny, playful, highly intelligent, and social birds!",
+   "Goffin's cockatoos are loving and affectionate, they bond strongly with their owners and require daily interaction to maintain their mental and emotional health!",
+   "Sun Conures start out as olive green that slowly changes to yellowish-orange at around 6months of age. By the time they turn 1 they reach their full colour plumage!",
+   "Kākāriki, is a Māori word, meaning 'little parrot', they weigh around 113 grams but are robust and hardy birds with strong beaks!"
+]
+
+// Display a random fun fact
 function funFactGenerator() {
-   
+   const randomIndex = Math.floor(Math.random() * funFactArray.length);
+   funFact.innerText = funFactArray[randomIndex];
 }

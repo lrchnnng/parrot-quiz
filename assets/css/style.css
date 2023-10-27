@@ -139,8 +139,13 @@ main {
         font-size: 40px;
     }
 
-    #score-message, #fun-fact {
+    #score-message {
         font-size: clamp(1.125rem, 0.8977rem + 1.1364vw, 1.625rem);
+    }
+
+    #fun-fact {
+        padding: 0 10px 10px 10px;
+        font-size: clamp(0.875rem, 0.6477rem + 1.1364vw, 1.375rem);
     }
 
     /* Footer */
