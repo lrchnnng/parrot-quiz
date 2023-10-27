@@ -41,11 +41,9 @@ Business goals:
 4. Scores
 
 ---
-<div align="center">
 
 ## 2. UX 
 
-</div>
 Whilst designing and creating this website I have taken into account the five planes of UX design, strategy, scope, structure, skeleton and surface.
 
 ### 2.1 Strategy

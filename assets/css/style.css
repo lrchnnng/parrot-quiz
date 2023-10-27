@@ -71,6 +71,10 @@ main {
         font-size: clamp(1rem, 0.8864rem + 0.5682vw, 1.25rem) !important;
     }
 
+    .nav-btn {
+        padding: 10px 0 !important;
+    }
+
     /* How To */
     .how-to {
         background-color: #0D6EFD;
