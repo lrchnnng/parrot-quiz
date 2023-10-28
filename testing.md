@@ -44,16 +44,14 @@
 
  ### Lighthouse <!-- omit in toc -->
 
-| Page | Test Results | Possible Improvements |
+| Page | Test Results | Lighthouse Suggested Improvements |
 |:---:|---|---|
-|Index|||
-|How To|![How To Lighthouse testing](assets/images/readme-img/how-to-lighthouse.png)
-||
-|Quiz|||
-|Final Score|![Score Lighthouse testing](assets/images/readme-img/score-lighthouse.png)
-||
+|Index|![Index Lighthouse testing](assets/images/readme-img/index-lighthouse.png)|Specifying a specific width and height of my title image, I wanted to retain as much responsivity as I could and opted to use bootstrap instead.|
+|How To|![How To Lighthouse testing](assets/images/readme-img/how-to-lighthouse.png)|As with the index page, utilising font-display to ensure the user can read any text if there is an issue/delay in the loading of webfonts, this could potentially improve this score.|
+|Quiz|![Quiz Lighthouse testing](assets/images/readme-img/quiz-lighthouse.png)|Properly sizing the images would reduce load time and cellular data, currently some images are oversized and are slowing down the time it takes for the page to load.|
+|Final Score|![Score Lighthouse testing](assets/images/readme-img/score-lighthouse.png)|Reducing unused JavaScript from the bootstrap bundle would decrease the amount of bytes consumed. I could do this either by removing them or defering them until they are needed.|
 
-![Index Lighthouse testing]()
+
 ![Quiz Lighthouse testing]()
 
 ### HTML and CSS Validation <!-- omit in toc -->
