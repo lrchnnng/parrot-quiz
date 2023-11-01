@@ -21,7 +21,20 @@
 |Responsive Text|✓|✓|✓|✓|
 |Responsive Nav Bar|✓|✓|✓|✓|
 
-|Quiz Testing|Yes/No|
+|Nav Bar Testing|Yes/No|
+|---|:---:|
+|Nav bar text and styles are loaded|✓|
+|Nav bar collapse appears up to medium sized screens|✓|
+|Nav links work as intended|✓|
+
+|Index Page Testing|Yes/No|
+|---|:---:|
+|A title image is loaded and is respnsive across all screen sizes|✓|
+|Two buttons appear on loading|✓|
+|A blue button navigates to how to page|✓|
+|A red buttom navigtes to quiz page|✓| 
+
+|Quiz Page Testing|Yes/No|
 |---|:---:|
 |Quiz question generated when page loads|✓|
 |When user selects an answer a new question is generated|✓|
@@ -29,11 +42,15 @@
 |When user gets incorrect answer, no action|✓|
 |When quiz finishes, score is stored in URL and user is automatically navigated to Final Score page|✓|
 
-|Final Score Testing|Yes/No|
+|Final Score Page Testing|Yes/No|
 |---|:---:|
-||✓|
-||✓|
-
+|Final score is found in URL search paramater|✓|
+|Final score string is changed to an integer using parseInt() function|✓|
+|Final score is added to HTML through JaveScript DOM manipulation and appears correctly|✓|
+|Final score message is generated depending on the score using if/else|✓|
+|A randomised fun fact is selected from the array and added to the page|✓|
+|A blue button navigates to quiz how to page|✓|
+|A red button navigates back to quiz page|✓| <!-- omit in toc -->
 ---
 
 <div align="center">
@@ -51,9 +68,6 @@
 |Quiz|![Quiz Lighthouse testing](assets/images/readme-img/quiz-lighthouse.png)|Properly sizing the images would reduce load time and cellular data, currently some images are oversized and are slowing down the time it takes for the page to load.|
 |Final Score|![Score Lighthouse testing](assets/images/readme-img/score-lighthouse.png)|Reducing unused JavaScript from the bootstrap bundle would decrease the amount of bytes consumed. I could do this either by removing them or defering them until they are needed.|
 
-
-![Quiz Lighthouse testing]()
-
 ### HTML and CSS Validation <!-- omit in toc -->
 ### HTML <!-- omit in toc -->
 ![HTML Validation](assets/images/readme-img/html-validation.png)
@@ -65,13 +79,10 @@
 - All pages passed the W3C CSS Validation.
     
 ## JavaScript Testing <!-- omit in toc -->
-* I ran both quiz.js and score.js through JS Lint to test them for errors and issues. While there were some warnings related to the use of single and double quotes there were no major issues.
- ![JS Lint Testing](assets/images/readme-img/jslint.png)
- ![JS Lint Testing](assets/images/readme-img/jslint-warnings.png)
 * I also ran both JS files through JSHint to make sure it was thoroughly tested.
  ![JSHint Testing](assets/images/readme-img/jshint-quiz.png)
  ![JSHint Testing](assets/images/readme-img/jshint-score.png)
-* Thoughout development I used console logs to test that the functions worked as intended.
+* Throughout development I used console logs to test that the functions worked as intended.
  ![quiz.js console](assets/images/readme-img/quiz-console.png)
  ![score.js console](assets/images/readme-img/score-console.png)
 
