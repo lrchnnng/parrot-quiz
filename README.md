@@ -144,6 +144,7 @@ These wireframes are a simplified version of what I planned for the site. Some a
 ### Other <!-- omit in toc -->
 [Font-size Clamp Generator](https://clamp.font-size.app/?config=eyJyb290IjoiMTYiLCJtaW5XaWR0aCI6IjMyMHB4IiwibWF4V2lkdGgiOiIxMDI0cHgiLCJtaW5Gb250U2l6ZSI6IjI0cHgiLCJtYXhGb250U2l6ZSI6IjYwcHgifQ%3D%3D): Used to create responsive text sizes.
 
+[JS Confetti](https://confetti.js.org): Used to add confetti animation to final score page.
 
 ---
 

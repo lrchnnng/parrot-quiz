@@ -87,7 +87,8 @@
  ![score.js console](assets/images/readme-img/score-console.png)
 
  ## Known bugs and fixes 
-  * Had issues with the score being logged once a button was disabled, attempted a multitude of fixes including:
+  * Had issues with the score still being logged once a button was disabled, attempted a multitude of fixes including:
     1. Adding if/else statements to event listener so that the checkAnswer() function is only called if the button is active.
     2. Adding if/else statements to checkAnswer() function so that if the button is disabled it cancels the calling of the function.
     **Solution**: Removed the event listener and the generated 'next' button and added onclick targets to each button within the html. With this fix I have had to sacrifice the fun fact and the correct/incorrect answer message.
+  * When user selects an answer the button from the previous selection remains depressed on the following question. In the future I would look at how to disable this button feature used by Bootstrap.
