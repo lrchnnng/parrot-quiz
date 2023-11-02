@@ -9,6 +9,7 @@ const finalScore = parseInt(finalScoreStr);
 $(document).ready(function(finalScore) {
     finalScoreMessage();
     funFactGenerator();
+    shoot();
  });
 
 // Accesses elements in the DOM 
@@ -60,3 +61,35 @@ function funFactGenerator() {
    const randomIndex = Math.floor(Math.random() * funFactArray.length);
    funFact.innerText = funFactArray[randomIndex];
 }
+
+// Code snippet from https://confetti.js.org //
+const defaults = {
+   spread: 20,
+   ticks: 50,
+   gravity: 0,
+   decay: 0.94,
+   startVelocity: 40,
+   shapes: ["star"],
+   colors: ["DC3545", "dda703", "0D6EFD"],
+ };
+ 
+ function shoot() {
+   confetti({
+     ...defaults,
+     particleCount: 40,
+     scalar: 1.2,
+     shapes: ["star"],
+   });
+ 
+   confetti({
+     ...defaults,
+     particleCount: 10,
+     scalar: 0.75,
+     shapes: ["circle"],
+   });
+ }
+ 
+ setTimeout(shoot, 0);
+ setTimeout(shoot, 100);
+ setTimeout(shoot, 200);
+ 
