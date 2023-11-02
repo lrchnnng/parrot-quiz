@@ -9,7 +9,7 @@
 }
 
 main {
-    padding: 10px;
+    padding: 60px 10px;
 }
 
 /* Mobile Styling*/
@@ -19,7 +19,7 @@ main {
         font-size: clamp(1.5rem, 0.4773rem + 5.1136vw, 3.75rem);
         text-align: center;
         font-weight: 600;
-        padding-bottom: 10px;
+        padding: 10px 0;
     }
 
     /* Nav bar */

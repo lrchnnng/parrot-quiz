@@ -9,7 +9,6 @@ const finalScore = parseInt(finalScoreStr);
 $(document).ready(function(finalScore) {
     finalScoreMessage();
     funFactGenerator();
-    shoot();
  });
 
 // Accesses elements in the DOM 
@@ -62,7 +61,7 @@ function funFactGenerator() {
    funFact.innerText = funFactArray[randomIndex];
 }
 
-// Code snippet from https://confetti.js.org //
+// Confetti code snippet from https://confetti.js.org
 const defaults = {
    spread: 20,
    ticks: 50,
