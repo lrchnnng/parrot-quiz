@@ -49,7 +49,7 @@ main {
         color: var(--red);
         font-size: clamp(1.5rem, 0.4773rem + 5.1136vw, 3.75rem);
         text-align: center;
-        font-weight: 600;
+        font-weight: 500;
         padding-bottom: 0px;
     }
 
@@ -194,7 +194,7 @@ main {
 /* Desktop Styling*/
 @media screen and (min-width: 1024px){
     main {
-        padding: 40px 60px;
+        padding: 20px 60px;
     }
 
     /* How To */
