@@ -177,6 +177,16 @@ main {
     hr {
         border: dashed 2px var(--blue) !important;
     }
+
+    .socials > a {
+        margin: 5px 2.5px 10px 2.5px;
+        font-size: clamp(1.125rem, 0.8977rem + 1.1364vw, 1.625rem) !important;
+        color: var(--red);
+    }
+
+    .socials > a:hover {
+        color: var(--blue);
+    }
 }
 
 /* Tablet Styling*/

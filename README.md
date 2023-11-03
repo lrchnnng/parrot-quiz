@@ -47,7 +47,7 @@ Business goals:
 Whilst designing and creating this website I have taken into account the five planes of UX design, strategy, scope, structure, skeleton and surface.
 
 ### 2.1 Strategy
-I began by creating the foundation for my website, I defined my target user and their goals when using the site, the features I'll include and the technologies I'll use. 
+This plane is the first, it involves identifying the goals and objectives of the site and the user. By identifying these first, design decisions can be made that meet these goals.
 
 **User and site goals**
 Target users for Parrots Parrots Parrots!:
@@ -62,31 +62,63 @@ First time and returning user goals:
 
 One of the main goals for my website was to create an intuitive experience making the page easy to navigate without the user having to think too much about their next move. With the understanding that my user demographic is most likely viewing the website across a variety of devices, I have made sure that the site is fully responsive across screen sizes in order to optimize user experience.
 
-**Features**
-* Index Page
-  - Navigation bar 
-  - An `H1` element used as the title
-  - An `H2` element used for a tagline 
-  - A title image
-  - A button navigating to the how to page
-  - A button navigating to the quiz page
-
-* How To Page
-  - Navigation bar
-  - 
-
-* Quiz Page
-  - Navigation bar
-  -
-
-* Final Score Page
-  - Navigation bar
-  -
-
 ### 2.2 Scope
 The second plane of UX looks at the **scope** of the website. What does the user have to do in order to reach both the user and the site owners goals for the website.
 
 #### Features <!-- omit in toc -->
+
+|Index Page|A simple landing page allowing users to navigate the site|
+|:---:|---|
+|`Nav Bar`|A responsive navigation bar that allows for easy navigation to every page of the site|
+|`H1`|Used for the title of the quiz|
+|`H2`|Used for the quiz tagline|
+|`Image`|A landing image|
+|`Button`|A button navigating to the how to page|
+|`Button`|A button navigating to the quiz page|
+|`Footer`|A simple footer section with site creator info, a text link and social media links|
+
+|How To Page|A simple landing page allowing users to navigate the site|
+|---|---|
+|Nav Bar|A responsive navigation bar that allows for easy navigation to every page of the site|
+|||
+
+* How To Page
+  - A navigation bar
+  - A `H1` element used as the page title
+  - A list of instructions
+  - A button navigating to the quiz page
+  - A footer section with creator information
+
+|Quiz Page|A simple landing page allowing users to navigate the site|
+|---|---|
+|Nav Bar|A responsive navigation bar that allows for easy navigation to every page of the site|
+|||
+
+* Quiz Page
+  - Navigation bar
+  - A `H1` element used as the page title
+  - A score that updates
+  - A photograph of a parrot
+  - A collection of 4 buttons for user selection
+  - A footer section with creator information
+
+|Final Score Page|A simple landing page allowing users to navigate the site|
+|---|---|
+|Nav Bar|A responsive navigation bar that allows for easy navigation to every page of the site|
+|||
+
+* Final Score Page
+  - Navigation bar
+  - A `H1` element used as the page title
+  - A message to the user regarding their score
+  - A display of the users final score
+  - A randomised fun fact
+  - A button navigating to the how to page
+  - A button navigating to the quiz page
+  - A confetti explosion  
+  - A footer section with creator information
+
+
 - **Homepage:**
 A simple landing page with a nav bar and navigation buttons to other pages on the site.
 - **How to play:**
