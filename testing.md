@@ -2,9 +2,25 @@
 
 ---
 # Testing <!-- omit in toc -->
+- [Automated vs Manual Testing](#automated-vs-manual-testing)
 - [Manual Testing](#manual-testing)
 - [Automated Testing](#automated-testing)
 - [Known bugs and fixes](#known-bugs-and-fixes)
+
+---
+
+## Automated vs Manual Testing
+
+**Automated**
+
+Automated testing involves the use of software tools and scripts to run test cases and verify the behaviours of a program. 
+
+These test are repeatable and can be executed quickly and consistently. 
+
+**Manual**
+
+
+
 
 ---
 

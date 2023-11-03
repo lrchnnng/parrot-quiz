@@ -21,11 +21,12 @@
   - [2.3 Structure](#23-structure)
   - [2.4 Skeleton](#24-skeleton)
   - [2.5 Surface](#25-surface)
-- [3. Technologies Used](#3-technologies-used)
-- [4. Testing](#4-testing)
-- [5. User Story](#5-user-story)
-- [6. Deployment](#6-deployment)
-- [7. Credits and Acknowledgments](#7-credits-and-acknowledgments)
+- [3. Features](#3-features)
+- [4. Technologies Used](#4-technologies-used)
+- [5. Testing](#5-testing)
+- [6. User Story](#6-user-story)
+- [7. Deployment](#7-deployment)
+- [8. Credits and Acknowledgments](#8-credits-and-acknowledgments)
 
 ## 1. Website Information
 Business goals: 
@@ -46,8 +47,9 @@ Business goals:
 Whilst designing and creating this website I have taken into account the five planes of UX design, strategy, scope, structure, skeleton and surface.
 
 ### 2.1 Strategy
-I began by creating the foundation for my website, I defined my target user and the types of features and technologies. 
+I began by creating the foundation for my website, I defined my target user and their goals when using the site, the features I'll include and the technologies I'll use. 
 
+**User and site goals**
 Target users for Parrots Parrots Parrots!:
 * Ages 10 +
 * Parrot lovers
@@ -58,7 +60,28 @@ First time and returning user goals:
 * To test current knowledge of various parrot species.
 * To gain a fun fact once final score has been displayed.
 
-Another goal for my website was to create an intuitive experience making the page easy to navigate without the user having to think too much about their next move. With the understanding that my user demographic is most likely viewing the website across a variety of devices, I have made sure that the site is fully responsive across screen sizes in order to optimize user experience.
+One of the main goals for my website was to create an intuitive experience making the page easy to navigate without the user having to think too much about their next move. With the understanding that my user demographic is most likely viewing the website across a variety of devices, I have made sure that the site is fully responsive across screen sizes in order to optimize user experience.
+
+**Features**
+* Index Page
+  - Navigation bar 
+  - An `H1` element used as the title
+  - An `H2` element used for a tagline 
+  - A title image
+  - A button navigating to the how to page
+  - A button navigating to the quiz page
+
+* How To Page
+  - Navigation bar
+  - 
+
+* Quiz Page
+  - Navigation bar
+  -
+
+* Final Score Page
+  - Navigation bar
+  -
 
 ### 2.2 Scope
 The second plane of UX looks at the **scope** of the website. What does the user have to do in order to reach both the user and the site owners goals for the website.
@@ -104,9 +127,15 @@ These wireframes are a simplified version of what I planned for the site. Some a
 
 ---
 
+## 3. Features
+
+
+
+---
+
 <div align="center">
 
-## 3. Technologies Used
+## 4. Technologies Used
 
 </div>
 
@@ -148,15 +177,15 @@ These wireframes are a simplified version of what I planned for the site. Some a
 
 ---
 
-## 4. Testing
+## 5. Testing
 [Click to view testing documentation](testing.md)
 
-## 5. User Story
+## 6. User Story
 1. Easily find the location of the festival
   ![a screenshot of the festival map on mobile device](assets/images/README-images/user-story-map-m.png)
 
 
-## 6. Deployment
+## 7. Deployment
 ### GitHub pages deployment <!-- omit in toc -->
 Once this is complete you should be able to view the webpage online, this is updated every so often which allows the user to see any changes in almost real time.
 
@@ -168,7 +197,7 @@ Once this is complete you should be able to view the webpage online, this is upd
 - The page is then given a site URL which you will see above the source section
 ---
 
-## 7. Credits and Acknowledgments
+## 8. Credits and Acknowledgments
 - [Google Fonts](https://fonts.google.com/)
 - [Figma](https://www.figma.com/)
   * Used to create user flows and wireframes.

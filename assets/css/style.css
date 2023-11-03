@@ -50,7 +50,6 @@ main {
         font-size: clamp(1.5rem, 0.4773rem + 5.1136vw, 3.75rem);
         text-align: center;
         font-weight: 500;
-        padding-bottom: 0px;
     }
 
     .title-img {
@@ -188,6 +187,10 @@ main {
 
     .how-to {
         padding: 20px;
+    }
+
+    .index-subtitle {
+        padding-bottom: 20px;
     }
 }
 
