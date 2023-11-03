@@ -77,54 +77,35 @@ The second plane of UX looks at the **scope** of the website. What does the user
 |`Button`|A button navigating to the quiz page|
 |`Footer`|A simple footer section with site creator info, a text link and social media links|
 
-|How To Page|A simple landing page allowing users to navigate the site|
-|---|---|
-|Nav Bar|A responsive navigation bar that allows for easy navigation to every page of the site|
-|||
+|How To Page|A page that explains how the quiz will work|
+|:---:|---|
+|`Nav Bar`|A responsive navigation bar that allows for easy navigation to every page of the site|
+|`H1`|Used for the title of the page|
+|`Instructions`|A list of instructions for the user|
+|`Button`|A button navigating to the quiz page|
+|`Footer`|A simple footer section with site creator info, a text link and social media links|
 
-* How To Page
-  - A navigation bar
-  - A `H1` element used as the page title
-  - A list of instructions
-  - A button navigating to the quiz page
-  - A footer section with creator information
-
-|Quiz Page|A simple landing page allowing users to navigate the site|
-|---|---|
-|Nav Bar|A responsive navigation bar that allows for easy navigation to every page of the site|
-|||
-
-* Quiz Page
-  - Navigation bar
-  - A `H1` element used as the page title
-  - A score that updates
-  - A photograph of a parrot
-  - A collection of 4 buttons for user selection
-  - A footer section with creator information
+|Quiz Page|An interactive quiz page with an image as the question and four options for the user to choose from|
+|:---:|---|
+|`Nav Bar`|A responsive navigation bar that allows for easy navigation to every page of the site|
+|`H1`|Used for the title of the page|
+|`Score`|a score that updates after user selects an answer|
+|`Image`|An image of a parrot that changes depending on the question|
+|`Buttons`|Four buttons that log the users choice of answer|
+|`Footer`|A simple footer section with site creator info, a text link and social media links|
 
 |Final Score Page|A simple landing page allowing users to navigate the site|
-|---|---|
-|Nav Bar|A responsive navigation bar that allows for easy navigation to every page of the site|
-|||
+|:---:|---|
+|`Nav Bar`|A responsive navigation bar that allows for easy navigation to every page of the site|
+|`H1`|Used for the title of the page|
+|`Message`|A short message that changes depending on the user score|
+|`Score`|A display of the users final score|
+|`Fun fact`|A randomised fun fact that changes when the page is loaded|
+|`Button`|A button navigating to the how to page|
+|`Button`|A button navigating to the quiz page|
+|`Animation`|An animated confetti canon that triggers when the page is loaded|
+|`Footer`|A simple footer section with site creator info, a text link and social media links|
 
-* Final Score Page
-  - Navigation bar
-  - A `H1` element used as the page title
-  - A message to the user regarding their score
-  - A display of the users final score
-  - A randomised fun fact
-  - A button navigating to the how to page
-  - A button navigating to the quiz page
-  - A confetti explosion  
-  - A footer section with creator information
-
-
-- **Homepage:**
-A simple landing page with a nav bar and navigation buttons to other pages on the site.
-- **How to play:**
-A page that explains how the quiz will work, includes a navigation button to begin the quiz.
-- **Quiz:**
-An interactive quiz page with an image as the question and four options for the user to choose from.
 - **Scores:**
 A page that takes the score from the quiz and displays the final user score, a short message and a random fun fact about parrots once the quiz is finished.
 
