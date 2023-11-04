@@ -12,7 +12,7 @@
 
 </div>
 
-## Table of contents <!-- omit in toc -->
+# Table of contents <!-- omit in toc -->
 - [1. Website Information](#1-website-information)
   - [1.1 Website Sections:](#11-website-sections)
 - [2. UX](#2-ux)
@@ -142,7 +142,7 @@ The surface plane is the last layer and deals with the aesthetics of the user in
 ## 3. Features
 **All Pages**
 - Nav bar
-  - *
+  - A fully responsive nav bar that 
 - Title
 - Buttons
 
@@ -163,6 +163,7 @@ The surface plane is the last layer and deals with the aesthetics of the user in
 
 **Final Score**
 - Icons and score message
+  - A combination of icons and a short message to keep the quiz fun and engaging for the user.
   - |0/10 |1-4/10|5/10 |6-9/10|10/10|
     |:---:|:---: |:---:|:---: |:---:|
     |![0/10 Icon](assets/images/readme-img/icon-1.png)|![1-4/10 Icon](assets/images/readme-img/icon-2.png)|![5/10 Icon](assets/images/readme-img/icon-3.png)|![6-9/10 Icon](assets/images/readme-img/icon-4.png)|![10/10 Icon](assets/images/readme-img/icon-5.png)|
@@ -174,6 +175,7 @@ The surface plane is the last layer and deals with the aesthetics of the user in
 - 'Begin quiz!' Button
 - Confetti
 
+[↑ Back to top](#parrots-parrots-parrots!) <!-- omit in toc -->
 
 ---
 
@@ -219,15 +221,24 @@ The surface plane is the last layer and deals with the aesthetics of the user in
 
 [JS Confetti](https://confetti.js.org): Used to add confetti animation to final score page.
 
+[↑ Back to top](#parrots-parrots-parrots!) <!-- omit in toc -->
+
 ---
 
 ## 5. Testing
 [Click to view testing documentation](testing.md)
 
+[↑ Back to top](#parrots-parrots-parrots!) <!-- omit in toc -->
+
+---
+
 ## 6. User Story
 1. Easily find the location of the festival
   ![a screenshot of the festival map on mobile device](assets/images/README-images/user-story-map-m.png)
 
+[↑ Back to top](#parrots-parrots-parrots!) <!-- omit in toc -->
+
+---
 
 ## 7. Deployment
 ### GitHub pages deployment <!-- omit in toc -->
@@ -239,6 +250,9 @@ Once this is complete you should be able to view the webpage online, this is upd
 - Select 'Pages' on the left-hand menu - this is around halfway down
 - In the source section, select branch 'Master' and save
 - The page is then given a site URL which you will see above the source section
+
+[↑ Back to top](#parrots-parrots-parrots!) <!-- omit in toc -->
+
 ---
 
 ## 8. Credits and Acknowledgments
@@ -248,3 +262,7 @@ Once this is complete you should be able to view the webpage online, this is upd
 - [ui.dev](https://ui.dev/amiresponsive)
   * Used to create a mockup of web page on various screen sizes.
 - [URLSearchParams](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams)
+
+[↑ Back to top](#parrots-parrots-parrots!) <!-- omit in toc -->
+
+---
