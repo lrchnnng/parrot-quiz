@@ -67,7 +67,7 @@ The second plane of UX looks at the **scope** of the website. What does the user
 
 #### Features <!-- omit in toc -->
 
-|Index Page|A simple landing page allowing users to navigate the site|
+|Landing Page|A simple landing page allowing users to navigate the site|
 |:---:|---|
 |`Nav Bar`|A responsive navigation bar that allows for easy navigation to every page of the site|
 |`H1`|Used for the title of the quiz|
@@ -106,10 +106,9 @@ The second plane of UX looks at the **scope** of the website. What does the user
 |`Animation`|An animated confetti canon that triggers when the page is loaded|
 |`Footer`|A simple footer section with site creator info, a text link and social media links|
 
-- **Scores:**
-A page that takes the score from the quiz and displays the final user score, a short message and a random fun fact about parrots once the quiz is finished.
-
 ### 2.3 Structure
+The structure plane deals with the organising and arrangment of elements within the user interface. Creating userflows to define how the user will interact with the page. A big goal of the structure plane is to ensure that the users can easily find and access the information they need.
+
 I created a userflow diagram to show how the user will interact with each page on the site.
 While I had originally planned for the user to lose a point when they answered the question incorrectly, I chose to change this to make it a more fun experience to a younger audience.
 
@@ -120,17 +119,17 @@ While I had originally planned for the user to lose a point when they answered t
 </details>
 
 ### 2.4 Skeleton
-The **skeleton** plane of UX design is a more visual representation of the flow in which a user might use the website. Using wireframes to show a basic design layout 
-removes colour, Typography, imagery to create a basic view of website and layout
+This plane is a more refined view of the user interface. Looking at the layout and visual hierarchy to ensure the site is both visually appealing and functional. I created a set of wireframes for different screen sizes, this is a simplified version of the final product, removing colour, typography, imagery to create a basic view of website and establish the layout.
 
 | Mobile Wireframes | Desktop Wireframes |
 |:---:|:---:|
 |![Mobile Wireframes](assets/images/readme-img/mobile-wireframes.png)|![Tablet and Desktop Wireframes](assets/images/readme-img/tablet-wireframes.png)|
 
-These wireframes are a simplified version of what I planned for the site. Some areas have changed between the wireframes and the final product, this is either due to making the page easier to navigate or an added function later in development.
+*Note: Some areas have changed between the wireframes and the final product, this is either due to making the page easier to navigate or an added function later in development.*
 
 
 ### 2.5 Surface
+The surface plane is the last layer and deals with the aesthetics of the user interface. This includes colour palettes, typography, graphics and visual style. The goal of this plane is to create a page that is visually pleasing and engaging for the user.
 
 | Type | Image | Description|
 |:---:|---|---|
@@ -141,7 +140,39 @@ These wireframes are a simplified version of what I planned for the site. Some a
 ---
 
 ## 3. Features
+**All Pages**
+- Nav bar
+  - *
+- Title
+- Buttons
 
+**Landing Page**
+- Image
+- 'How to play' Button
+- 'Begin quiz!' Button
+
+**How To Page**
+- 'How to play' box
+- List with icons
+- 'Begin Quiz!' Button
+
+**Quiz Page**
+- User score
+- Quiz image
+- Answer buttons
+
+**Final Score**
+- Icons and score message
+  - |0/10 |1-4/10|5/10 |6-9/10|10/10|
+    |:---:|:---: |:---:|:---: |:---:|
+    |![0/10 Icon](assets/images/readme-img/icon-1.png)|![1-4/10 Icon](assets/images/readme-img/icon-2.png)|![5/10 Icon](assets/images/readme-img/icon-3.png)|![6-9/10 Icon](assets/images/readme-img/icon-4.png)|![10/10 Icon](assets/images/readme-img/icon-5.png)|
+    |![0/10 Message](assets/images/readme-img/message-1.png)|![1-4/10 Message](assets/images/readme-img/message-2.png)|![5/10 Message](assets/images/readme-img/message-3.png)|![6-9/10 Message](assets/images/readme-img/message-4.png)|![10/10 Message](assets/images/readme-img/message-5.png)|
+- Score message
+- Final user score
+- Fun fact
+- 'How to play' Button
+- 'Begin quiz!' Button
+- Confetti
 
 
 ---
