@@ -54,9 +54,11 @@ Target users for Parrots Parrots Parrots!:
 * People who want to learn more about parrots
 
 First time and returning user goals: 
+* To easily and intuitively access different pages of the site.
 * To learn about different species of parrots.
 * To test current knowledge of various parrot species.
 * To gain a fun fact once final score has been displayed.
+* Access social media pages related to the site.
 
 One of the main goals for my website was to create an intuitive experience making the page easy to navigate without the user having to think too much about their next move. With the understanding that my user demographic is most likely viewing the website across a variety of devices, I have made sure that the site is fully responsive across screen sizes in order to optimize user experience.
 
@@ -187,9 +189,23 @@ The surface plane is the last layer and deals with the aesthetics of the user in
 ---
 
 ## 5. User Story
-1. Easily find the location of the festival
-  ![a screenshot of the festival map on mobile device](assets/images/README-images/user-story-map-m.png)
+1. Easily and intuitively access various pages across the site
+  <details>
+    <summary>Click here for userflow</summary>
+    |Page|Image|
+    |:---:|:---:|
+    
+    ![a screenshot of navbar on mobile](assets/images/readme-img/navbar-small.png)
+    ![a screenshot of navbar on desktop](assets/images/readme-img/navbar-large.png)
+    ![a screenshot of buttons](assets/images/readme-img/buttons.png)
+  </details>
+  
 
+2. To learn about different species of parrots.
+   
+3. To test current knowledge of various parrot species.
+4. To gain a fun fact once final score has been displayed.
+5. Access social media pages related to the site.
 ---
 
 ## 6. Deployment
