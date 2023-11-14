@@ -216,7 +216,7 @@ The surface plane is the last layer and deals with the aesthetics of the user in
   |Footer - social media links|![screenshot of footer section](assets/images/readme-img/footer-screenshot.png)|
 
 
-5. I want to find a way home if the page doesn't exist.
+5. I want to find a way home if the page doesn't exist, without using browser navigation.
   
   |Name|Screenshot|
   |:---:|:---:|
