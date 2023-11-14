@@ -77,7 +77,9 @@ Automated tests are repeatable and reliable as there is limited risk for human e
 |Index|![Index Lighthouse testing](assets/images/testing-img/index-lighthouse.png)|Specifying a specific width and height of my title image, I wanted to retain as much responsivity as I could and opted to use bootstrap instead.|
 |How To|![How To Lighthouse testing](assets/images/testing-img/how-to-lighthouse.png)|As with the index page, utilising font-display to ensure the user can read any text if there is an issue/delay in the loading of webfonts, this could potentially improve this score.|
 |Quiz|![Quiz Lighthouse testing](assets/images/testing-img/quiz-lighthouse.png)|Properly sizing the images would reduce load time and cellular data, currently some images are oversized and are slowing down the time it takes for the page to load.|
-|Final Score|![Score Lighthouse testing](assets/images/testing-img/score-lighthouse.png)|Reducing unused JavaScript from the bootstrap bundle would decrease the amount of bytes consumed. I could do this either by removing them or defering them until they are needed.|
+|Final Score without animation|![Score Lighthouse testing](assets/images/testing-img/score-lighthouse.png)|Reducing unused JavaScript from the bootstrap bundle would decrease the amount of bytes consumed. I could do this either by removing them or defering them until they are needed.|
+|Final Score with animation|![Score with animation Lighthouse testing](assets/images/testing-img/score-animation-lighthouse.png)|The lighthouse report suggests reducing the impact of third-party code as it is affecting load performance significantly. I am, however, unsure of how to do this with my current knowledge but in the future would attempt to do this.|
+
 
 ### HTML and CSS Validation <!-- omit in toc -->
 ### HTML <!-- omit in toc -->
