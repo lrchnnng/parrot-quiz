@@ -179,22 +179,16 @@ The surface plane is the last layer and deals with the aesthetics of the user in
 
 [JS Confetti](https://confetti.js.org): Used to add confetti animation to final score page.
 
-[↑ Back to top](#parrots-parrots-parrots!) <!-- omit in toc -->
-
 ---
 
 ## 4. Testing
 [Click to view testing documentation](testing.md)
-
-[↑ Back to top](#parrots-parrots-parrots!) <!-- omit in toc -->
 
 ---
 
 ## 5. User Story
 1. Easily find the location of the festival
   ![a screenshot of the festival map on mobile device](assets/images/README-images/user-story-map-m.png)
-
-[↑ Back to top](#parrots-parrots-parrots!) <!-- omit in toc -->
 
 ---
 
@@ -209,18 +203,25 @@ Once this is complete you should be able to view the webpage online, this is upd
 - In the source section, select branch 'Master' and save
 - The page is then given a site URL which you will see above the source section
 
-[↑ Back to top](#parrots-parrots-parrots!) <!-- omit in toc -->
-
 ---
 
 ## 7. Credits and Acknowledgments
 - [Google Fonts](https://fonts.google.com/)
+  * Used to find fonts across the site.
 - [Figma](https://www.figma.com/)
   * Used to create user flows and wireframes.
 - [ui.dev](https://ui.dev/amiresponsive)
   * Used to create a mockup of web page on various screen sizes.
 - [URLSearchParams](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams)
-
-[↑ Back to top](#parrots-parrots-parrots!) <!-- omit in toc -->
-
+  * Used to store the user score in the url. 
+- [JS Confetti](https://confetti.js.org)
+  * Used to add confetti animation to final score page.
+- [Font-size Clamp Generator](https://clamp.font-size.app/?config=eyJyb290IjoiMTYiLCJtaW5XaWR0aCI6IjMyMHB4IiwibWF4V2lkdGgiOiIxMDI0cHgiLCJtaW5Gb250U2l6ZSI6IjI0cHgiLCJtYXhGb250U2l6ZSI6IjYwcHgifQ%3D%3D): Used to create responsive text sizes.
+  * Used for responsive text.
+- [Bootstrap](https://getbootstrap.com/)
+  * Used to create fully responsive navbar, buttons and images.
+- [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/)
+  * Used for testing.
+- [JShint](https://jshint.com/)
+  * Used for testing.
 ---
