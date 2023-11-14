@@ -14,27 +14,25 @@
 
 # Table of contents <!-- omit in toc -->
 - [1. Website Information](#1-website-information)
-  - [1.1 Website Sections:](#11-website-sections)
 - [2. UX](#2-ux)
   - [2.1 Strategy](#21-strategy)
   - [2.2 Scope](#22-scope)
   - [2.3 Structure](#23-structure)
   - [2.4 Skeleton](#24-skeleton)
   - [2.5 Surface](#25-surface)
-- [3. Features](#3-features)
-- [4. Technologies Used](#4-technologies-used)
-- [5. Testing](#5-testing)
-- [6. User Story](#6-user-story)
-- [7. Deployment](#7-deployment)
-- [8. Credits and Acknowledgments](#8-credits-and-acknowledgments)
+- [3. Technologies Used](#3-technologies-used)
+- [4. Testing](#4-testing)
+- [5. User Story](#5-user-story)
+- [6. Deployment](#6-deployment)
+- [7. Credits and Acknowledgments](#7-credits-and-acknowledgments)
 
-## 1. Website Information
+## 1. Website Information 
 Business goals: 
 * Provide a fun and educational quiz for users
 * Provide easily readable instructions
 * Provide an easy to navigate website
 
-### 1.1 Website Sections:
+### 1.1 Website Sections: <!-- omit from toc -->
 1. Home/Landing Page
 2. How to play
 3. Quiz
@@ -139,49 +137,9 @@ The surface plane is the last layer and deals with the aesthetics of the user in
 
 ---
 
-## 3. Features
-**All Pages**
-- Nav bar
-  - A fully responsive nav bar that 
-- Title
-- Buttons
-
-**Landing Page**
-- Image
-- 'How to play' Button
-- 'Begin quiz!' Button
-
-**How To Page**
-- 'How to play' box
-- List with icons
-- 'Begin Quiz!' Button
-
-**Quiz Page**
-- User score
-- Quiz image
-- Answer buttons
-
-**Final Score**
-- Icons and score message
-  - A combination of icons and a short message to keep the quiz fun and engaging for the user.
-  - |0/10 |1-4/10|5/10 |6-9/10|10/10|
-    |:---:|:---: |:---:|:---: |:---:|
-    |![0/10 Icon](assets/images/readme-img/icon-1.png)|![1-4/10 Icon](assets/images/readme-img/icon-2.png)|![5/10 Icon](assets/images/readme-img/icon-3.png)|![6-9/10 Icon](assets/images/readme-img/icon-4.png)|![10/10 Icon](assets/images/readme-img/icon-5.png)|
-    |![0/10 Message](assets/images/readme-img/message-1.png)|![1-4/10 Message](assets/images/readme-img/message-2.png)|![5/10 Message](assets/images/readme-img/message-3.png)|![6-9/10 Message](assets/images/readme-img/message-4.png)|![10/10 Message](assets/images/readme-img/message-5.png)|
-- Score message
-- Final user score
-- Fun fact
-- 'How to play' Button
-- 'Begin quiz!' Button
-- Confetti
-
-[↑ Back to top](#parrots-parrots-parrots!) <!-- omit in toc -->
-
----
-
 <div align="center">
 
-## 4. Technologies Used
+## 3. Technologies Used
 
 </div>
 
@@ -225,14 +183,14 @@ The surface plane is the last layer and deals with the aesthetics of the user in
 
 ---
 
-## 5. Testing
+## 4. Testing
 [Click to view testing documentation](testing.md)
 
 [↑ Back to top](#parrots-parrots-parrots!) <!-- omit in toc -->
 
 ---
 
-## 6. User Story
+## 5. User Story
 1. Easily find the location of the festival
   ![a screenshot of the festival map on mobile device](assets/images/README-images/user-story-map-m.png)
 
@@ -240,7 +198,7 @@ The surface plane is the last layer and deals with the aesthetics of the user in
 
 ---
 
-## 7. Deployment
+## 6. Deployment
 ### GitHub pages deployment <!-- omit in toc -->
 Once this is complete you should be able to view the webpage online, this is updated every so often which allows the user to see any changes in almost real time.
 
@@ -255,7 +213,7 @@ Once this is complete you should be able to view the webpage online, this is upd
 
 ---
 
-## 8. Credits and Acknowledgments
+## 7. Credits and Acknowledgments
 - [Google Fonts](https://fonts.google.com/)
 - [Figma](https://www.figma.com/)
   * Used to create user flows and wireframes.

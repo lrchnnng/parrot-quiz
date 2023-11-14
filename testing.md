@@ -11,16 +11,7 @@
 
 ## Automated vs Manual Testing
 
-**Automated**
-
-Automated testing involves the use of software tools and scripts to run test cases and verify the behaviours of a program. 
-
-These test are repeatable and can be executed quickly and consistently. 
-
-**Manual**
-
-
-
+Automated testing and manual testing, when used in combination, are able to achieve a greater level of testing coverage. Automated testing is good for repetitive and critical tasks, while manual testing is good for new or changing requirements and exploratory testing.
 
 ---
 
@@ -29,6 +20,8 @@ These test are repeatable and can be executed quickly and consistently.
 ## Manual Testing
 
 </div>
+
+Manual testing allows the tester to explore the site and using experience and creativity to find any issues within the site. It also takes into account flexibility and context, manual testing paramaters can be changed quickly depending on the requirements. The tester can also take into account the prospective users and their knowledge of the system in order to execute tests that are relevant.  
 
 | | Mobile S (320px)| Mobile L (425px)| Tablet (768px) | Desktop (1024px)|
 |---|:---:|:---:|:---:|:---:|
@@ -74,6 +67,8 @@ These test are repeatable and can be executed quickly and consistently.
 ## Automated Testing
 
 </div>
+
+Automated tests are repeatable and reliable as there is limited risk for human error. It allows for testing on both a small and a large scale in a quick and efficient manner. Automated testing might be used to test the performance of a site in order to ensure that it can handle page loading.
 
  ### Lighthouse <!-- omit in toc -->
 
