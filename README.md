@@ -190,23 +190,33 @@ The surface plane is the last layer and deals with the aesthetics of the user in
 
 ## 5. User Story
 1. I want to easiy and intuitively find my way around the site.
-  ![a screenshot of navbar on mobile](assets/images/readme-img/navbar-small.png)
+  |Name|Screenshot|
+  |:---:|:---:|
+  |Navbar Mobile|![a screenshot of navbar on mobile](assets/images/readme-img/navbar-small.png)|
+  |Navbar Desktop|![a screenshot of navbar on desktop](assets/images/readme-img/navbar-large.png)|
+  |Buttons|![a screenshot of buttons](assets/images/readme-img/buttons.png)|
   
-  ![a screenshot of navbar on desktop](assets/images/readme-img/navbar-large.png)
-  
-  ![a screenshot of buttons](assets/images/readme-img/buttons.png)
-  
-* 
-* I want to test my current knowledge of various parrot species.
-* I want to get a fun fact about parrots.
-* I want to easily find social media links.
-* I want to find a way home if the page doesn't exist.
-* 
-1. To learn about different species of parrots.
-   
-2. To test current knowledge of various parrot species.
-3. To gain a fun fact once final score has been displayed.
-4. Access social media pages related to the site.
+2. I want to test my current knowledge of various parrot species.
+  |Name|Screenshot|
+  |:---:|:---:|
+  |Quiz|![screenshot of quiz section](assets/images/readme-img/quiz-screenshot.png)|
+
+3. I want to get a fun fact about parrots.
+  |Name|Screenshot|
+  |:---:|:---:|
+  |Fun fact|![screenshot of fun fact section](assets/images/readme-img/fun-fact-screenshot.png)|
+
+4. I want to easily find social media links.
+  |Name|Screenshot|
+  |:---:|:---:|
+  |Footer - social media links|![screenshot of footer section](assets/images/readme-img/footer-screenshot.png)|
+
+
+1. I want to find a way home if the page doesn't exist.
+  |Name|Screenshot|
+  |:---:|:---:|
+  |404.html|![a screenshot of 404.html page](assets/images/readme-img/404-screenshot.png)|
+
 ---
 
 ## 6. Deployment
