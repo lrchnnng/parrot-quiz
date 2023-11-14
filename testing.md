@@ -74,28 +74,28 @@ Automated tests are repeatable and reliable as there is limited risk for human e
 
 | Page | Test Results | Lighthouse Suggested Improvements |
 |:---:|---|---|
-|Index|![Index Lighthouse testing](assets/images/readme-img/index-lighthouse.png)|Specifying a specific width and height of my title image, I wanted to retain as much responsivity as I could and opted to use bootstrap instead.|
-|How To|![How To Lighthouse testing](assets/images/readme-img/how-to-lighthouse.png)|As with the index page, utilising font-display to ensure the user can read any text if there is an issue/delay in the loading of webfonts, this could potentially improve this score.|
-|Quiz|![Quiz Lighthouse testing](assets/images/readme-img/quiz-lighthouse.png)|Properly sizing the images would reduce load time and cellular data, currently some images are oversized and are slowing down the time it takes for the page to load.|
-|Final Score|![Score Lighthouse testing](assets/images/readme-img/score-lighthouse.png)|Reducing unused JavaScript from the bootstrap bundle would decrease the amount of bytes consumed. I could do this either by removing them or defering them until they are needed.|
+|Index|![Index Lighthouse testing](assets/images/testing-img/index-lighthouse.png)|Specifying a specific width and height of my title image, I wanted to retain as much responsivity as I could and opted to use bootstrap instead.|
+|How To|![How To Lighthouse testing](assets/images/testing-img/how-to-lighthouse.png)|As with the index page, utilising font-display to ensure the user can read any text if there is an issue/delay in the loading of webfonts, this could potentially improve this score.|
+|Quiz|![Quiz Lighthouse testing](assets/images/testing-img/quiz-lighthouse.png)|Properly sizing the images would reduce load time and cellular data, currently some images are oversized and are slowing down the time it takes for the page to load.|
+|Final Score|![Score Lighthouse testing](assets/images/testing-img/score-lighthouse.png)|Reducing unused JavaScript from the bootstrap bundle would decrease the amount of bytes consumed. I could do this either by removing them or defering them until they are needed.|
 
 ### HTML and CSS Validation <!-- omit in toc -->
 ### HTML <!-- omit in toc -->
-![HTML Validation](assets/images/readme-img/html-validation.png)
+![HTML Validation](assets/images/testing-img/html-validation.png)
 - All of the HTML pages passed the W3C HTML Validator apart from quiz.html.
-![HTML Validation](assets/images/readme-img/html-error.png)
+![HTML Validation](assets/images/testing-img/html-error.png)
 - This error has appeared due to me leaving the img element source blank which is replaced within my quiz.js file. I fixed both of these issues by using a '#' as the source and creating a general, none specific alt text attribute (in this case it will always be a picture of a parrot). 
 ### CSS <!-- omit in toc -->
-![CSS Validation](assets/images/readme-img/html-validation.png)
+![CSS Validation](assets/images/testing-img/html-validation.png)
 - All pages passed the W3C CSS Validation.
     
 ## JavaScript Testing <!-- omit in toc -->
 * I also ran both JS files through JSHint to make sure it was thoroughly tested.
- ![JSHint Testing](assets/images/readme-img/jshint-quiz.png)
- ![JSHint Testing](assets/images/readme-img/jshint-score.png)
+ ![JSHint Testing](assets/images/testing-img/jshint-quiz.png)
+ ![JSHint Testing](assets/images/testing-img/jshint-score.png)
 * Throughout development I used console logs to test that the functions worked as intended.
- ![quiz.js console](assets/images/readme-img/quiz-console.png)
- ![score.js console](assets/images/readme-img/score-console.png)
+ ![quiz.js console](assets/images/testing-img/quiz-console.png)
+ ![score.js console](assets/images/testing-img/score-console.png)
 
  ## Known bugs and fixes 
   * Had issues with the score still being logged once a button was disabled, attempted a multitude of fixes including:
